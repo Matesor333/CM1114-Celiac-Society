@@ -1,0 +1,87 @@
+body {
+    background : orange;
+}
+header {
+    background : white;
+    border-top-left-radius: 10px;
+    bordder-top-right: 10px;
+
+}
+h1 {
+    font-family: "Bookman Old Style";
+    font-size: xxx-large;
+    font-style: unset;
+}
+h2 {
+    font-size: xx-large;
+
+}
+h3 {
+
+    font-size: 35px;
+
+}
+
+h4{
+    font-size: 20px;
+
+}
+
+
+main{
+    background-color: white;
+}
+nav{
+
+    background: orange;
+    padding: 0 20px 0 20px;
+}
+aside{
+
+    background: dodgerblue;
+}
+footer{
+    font-size: 20px;
+
+    background: green;
+}
+nav li{
+    border : 5px;
+    background-color: green;
+    list-style-type: none;
+}
+nav li a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+Nav li:hover{
+    color: yellow;
+}
+.active{
+    background-colorr:interactive ;
+}
+Nav>li{
+    display: inline-block;
+
+
+}
+table {
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    border-collapse: collapse;
+}
+table td,table th {
+    border: 2px solid white;
+
+}
+Table tr:nth-child(even) {
+    background-color:white;
+
+}
+Table tr:hover{
+    background-color: green;
+}
+Table th{
+    background-color: green;
+    color: white;
+}

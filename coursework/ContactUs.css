@@ -1,0 +1,135 @@
+
+/**genral stuff*/
+body {
+    background : rgba(231, 126, 3, 1) ;
+}
+header {
+    background : rgba(231, 126, 3, 1);
+    border-top-left-radius: 10px;
+    bordder-top-right: 10px;
+    padding-bottom: 10px;
+
+}
+h1 {
+    font-family: "-apple-system";
+    font-size: 70px;
+    font-style: unset;
+    white-space: nowrap;
+}
+
+h2 {
+    Font-Family: "-apple-system";
+    font-size: 30px;
+
+}
+h3 {
+    font-family: -apple-system;
+    font-size: 20px;
+
+
+}
+h4 {
+    font-family: -apple-system;
+    font-size:10px;
+}
+
+.Form{
+
+
+}
+
+
+
+
+
+
+main{
+    background-color:rgba(231, 126, 3, 1) ;
+}
+/*Navigation bar*/
+nav{
+
+    background: rgba(231, 126, 3, 1);
+    padding: 0 20px 0 20px;
+}
+/*contuct us */
+aside{
+
+    background: deepskyblue;
+}
+.bottom_Contact{
+    font-size: 20px ;
+}
+
+
+/*copyright*/
+footer{
+    font-size: 20px;
+
+    background: green;
+}
+/*navigation bar in depth*/
+
+nav li{
+
+
+
+    border: 2px solid rgba(225, 189, 2, 1) ;
+    background-color:rgba(231, 126, 3, 1);
+    list-style-type: none;
+    float: left;
+    width: 10%;
+    padding: 5px;
+
+}
+nav li a{
+
+
+    color: white;
+    text-decoration: none;
+}
+Nav li:hover{
+    color: black;
+}
+.active{
+    background-colorr:interactive ;
+}
+Nav>li{
+    display: inline-block;
+
+}
+Nav ul {
+    margin: 0;
+    padding: 0px ;
+    overflow: hidden;
+
+}
+
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+.form{
+    float:left;
+    width: 50%;
+    flex: 50%;
+}
+.tweets{
+    float:right;
+    width: 50%;
+    flex:50%;
+    padding-left: 50px;
+}
+
+.container{
+    display: flex;
+
+}
+
+
+
+
+
+

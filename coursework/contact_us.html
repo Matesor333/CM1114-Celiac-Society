@@ -5,41 +5,71 @@
 
 <body>
 <header>
-    <h1>
-        <p>
+    <div class="contajner">
+        <div class="logo">
             <img src="IMG/Logo.jpg"/>
-        </p>
-        RGU Celiac Society
-    </h1>
-    <h2> Contact Us</h2>
+        </div>
+        <h1 class="Name">
+            RGU Celiac Society
+        </h1>
+    </div>
+
+    <link rel="stylesheet" href="main.css">
 </header>
 
 
 <nav>
-    <a href="contact_us.html">contact</a>
-    <a href="current_members.html">memmbers</a>
-    <a href="event_calendar.html">calender</a>
-    <a href="img_gallery.html">img</a>
-    <a href="index.html">index</a>
-    <a href="where_to_eat.html">where to eat</a>
-    <a href="recepies.html">what to cook</a>
+    <li class="active"><a href="index.html">index</a></li>
+    <li class = "active"><a href="contact_us.html">contact</a></li>
+    <li class = "active"><a href="current_members.html">memmbers</a></li>
+    <li clas = "active"> <a href="event_calendar.html">calender</a></li>
+    <li class = "active"><a href="img_gallery.html">img</a></li>
+    <li class = "active"><a href="where_to_eat.html">where to eat</a></li>
+    <li class =" active"><a href="recepies.html">what to cook</a></li>
+
 
 </nav>
 
 <main>
-    <div>
-        <h3>Contact</h3>
-        <h4>Event orginizer:</h4>
-        <p>Matus Illith: +44 7425 2133</p>
-        <h4>CEO</h4>
-        <p>ILLITH Matus: +44 12234 4575 </p>
+
+        <br/>
+        <h2>Contact Us</h2>
+    <div class="container">
+        <div class="form">
+         <form>
+                <fieldset>
+                <legend> Contact Us using the below form.</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name" value=""/>
+                <label for="email">Email:</label>
+                <input type="email" name="email" value=""/>
+                <label for="School">School:</label>
+                <input type="text" name="School" value=""/><br/>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" cols="80" rows="5"></textarea>
+                <input type="submit" value="Submit"/>
+
+                </fieldset>
+            </form>
+        </div>
+            <div id="tweets">
+                <a class="twitter-timeline" data-width="500" data-height="700" href="https://twitter.com/XDevelopers?ref_src=twsrc%5Etfw">Tweets by XDevelopers</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
 
     </div>
-
 </main>
 
-<aside> </aside>
-<footer> </footer>
+<aside>
+
+
+</aside>
+
+
+<footer> <p> Copyright Matus Illith</p>
+
+</footer>
 
 
 </body>

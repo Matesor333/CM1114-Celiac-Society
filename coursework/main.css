@@ -1,0 +1,165 @@
+
+/**genral stuff*/
+body {
+    background : rgba(231, 126, 3, 1) ;
+}
+header {
+    background : rgba(231, 126, 3, 1);
+    border-top-left-radius: 10px;
+    bordder-top-right: 10px;
+    padding-bottom: 10px;
+
+}
+h1 {
+    font-family: "-apple-system";
+    font-size: 70px;
+    font-style: unset;
+    white-space: nowrap;
+}
+
+h2 {
+    Font-Family: "-apple-system";
+    font-size: 30px;
+
+}
+h3 {
+    font-family: -apple-system;
+    font-size: 20px;
+
+
+}
+h4 {
+    font-family: -apple-system;
+    font-size:10px;
+}
+
+/*main index css*/
+
+
+/*Logo */
+.contajner {
+display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+.img {
+
+    max-width: 100%;
+    max-height: 100%;
+
+}
+.Name {
+
+}
+
+
+
+
+main{
+    background-color:rgba(231, 126, 3, 1) ;
+}
+/*Navigation bar*/
+nav{
+
+    background: rgba(231, 126, 3, 1);
+    padding: 0 20px 0 20px;
+}
+/*contuct us */
+aside{
+
+    background: deepskyblue;
+}
+.bottom_Contact{
+    font-size: 20px ;
+}
+
+
+/*copyright*/
+footer{
+    font-size: 20px;
+
+    background: green;
+}
+/*navigation bar in depth*/
+
+nav li{
+    border : 5px;
+    background-color: green;
+    list-style-type: none;
+
+
+    border: 2px solid rgba(225, 189, 2, 1) ;
+    background-color:rgba(231, 126, 3, 1);
+    list-style-type: none;
+    float: left;
+    width: 10%;
+    padding: 5px;
+
+}
+nav li a{
+    color:white;
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+    text-decoration: none;
+}
+Nav li:hover{
+    color: black;
+}
+.active{
+    background-colorr:interactive ;
+}
+Nav>li{
+display: inline-block;
+
+}
+Nav ul {
+    margin: 0;
+    padding: 50px ;
+    overflow: hidden;
+
+}
+
+
+
+
+.Welcome{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgba(231, 126, 3, 1) !important;
+
+
+
+}
+
+/*text in depth*/
+.text{
+    pading: 10px;
+    background-color: rgba(225, 189, 2, 1) !important;
+
+
+}
+.Para{
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+}
+.fest{
+    flex:1;
+    max-width: 100%;
+    height: auto;
+}
+.Text{
+    flex: 1;
+}
+
+
+
+
