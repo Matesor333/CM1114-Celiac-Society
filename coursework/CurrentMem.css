@@ -1,7 +1,7 @@
 
 /**genral stuff*/
 body {
-    background : #FFFAE5;
+    background : #FFFAE5 ;
 }
 header {
     background : #FFFAE5;
@@ -38,7 +38,7 @@ h4 {
 
 /*Logo */
 .contajner {
-display: grid;
+    display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 15px;
@@ -68,7 +68,7 @@ nav{
 /*contuct us */
 aside{
 
-    background: slategray;
+    background: deepskyblue;
 }
 .bottom_Contact{
     font-size: 20px ;
@@ -79,7 +79,7 @@ aside{
 footer{
     font-size: 20px;
 
-    background: slategray;
+    background: green;
 }
 /*navigation bar in depth*/
 
@@ -89,10 +89,8 @@ nav li{
     list-style-type: none;
 
 
-
     border: 2px solid rgba(225, 189, 2, 1) ;
-    background-color:#FFFAE5 ;
-
+    background-color:#FFFAE5;
     list-style-type: none;
     float: left;
     width: 10%;
@@ -114,7 +112,7 @@ Nav li:hover{
     background-colorr:interactive ;
 }
 Nav>li{
-display: inline-block;
+    display: inline-block;
 
 }
 Nav ul {
@@ -123,48 +121,59 @@ Nav ul {
     overflow: hidden;
 
 }
-
-
-
-
-.Welcome{
-    padding-top: 10px;
-    text-align: center;
-    background-color:#FFFAE5 ;
-
-
-
-
-}
-
-/*text in depth*/
-.text{
-    pading: 10px;
-    background-color: #e5eaff;
-
-
-}
-.Para{
-    font-size: 15px;
-}
-
-.contajner {
+.CeoContajner{
     display: flex;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 0px;
+    column-gap: 20px;
+
 }
-.fest{
+
+
+.CeoContajner{
+    margin-left:20px;
+    background-color: #e5eaff;
     flex:1;
     max-width: 100%;
     height: auto;
 
-
 }
-.Text{
-    padding-right:10px;
+
+
+.NameCEO{
+    margin-right: 120px;
+    background-color: #e5eaff;
+    max-width: 100%;
+    max-height: 100%;
     flex: 1;
 }
+
+
+
+.NameChef{
+    margin-right: 120px;
+    background-color: #e5eaff;
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+
+}
+
+
+.NameSuChef{
+    margin-right: 120px;
+    background-color: #e5eaff;
+    max-width: 100%;
+    max-height: 100%;
+    flex: 1;
+
+}
+
+.Mem{
+    padding-left:10px;
+}
+
+
 
 
 

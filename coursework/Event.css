@@ -49,14 +49,26 @@ nav li{
     border : 5px;
     background-color: green;
     list-style-type: none;
+
+
+    border: 2px solid rgba(225, 189, 2, 1) ;
+    background-color:rgba(231, 126, 3, 1);
+    list-style-type: none;
+    float: left;
+    width: 10%;
+    padding: 15px;
+
 }
 nav li a{
     color:white;
     text-align: center;
     text-decoration: none;
+
+    color: white;
+    text-decoration: none;
 }
 Nav li:hover{
-    color: yellow;
+    color: black;
 }
 .active{
     background-colorr:interactive ;
@@ -64,6 +76,11 @@ Nav li:hover{
 Nav>li{
     display: inline-block;
 
+}
+Nav ul {
+    margin: 0;
+    padding: 50px ;
+    overflow: hidden;
 
 }
 table {
