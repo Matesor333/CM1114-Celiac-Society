@@ -10,7 +10,7 @@
       <img src="IMG/Logo.jpg"/>
     </div>
     <h1 class="Name">
-      RGU Celiac Society
+      Robert Gordon University Celiac Society
     </h1>
   </div>
 
@@ -19,29 +19,35 @@
 </header>
 
 
-<nav>
-  <li class="active"><a href="index.html">index</a></li>
-  <li class = "active"><a href="contact_us.html">contact</a></li>
-  <li class = "active"><a href="current_members.html">memmbers</a></li>
-  <li clas = "active"> <a href="event_calendar.html">calender</a></li>
-  <li class = "active"><a href="img_gallery.html">img</a></li>
-  <li class = "active"><a href="where_to_eat.html">where to eat</a></li>
-  <li class =" active"><a href="recepies.html">what to cook</a></li>
+<nav class="d-flex justify-content-center py-3">
+
+  <ul class="nav nav-pills">
+    <li class="nav-item"><a href="index.html" class="nav-link active" >Home</a></li>
+    <li class="nav-item"><a href="contact_us.html" class="nav-link">Conract Us</a></li>
+    <li class="nav-item"><a href="current_members.html" class="nav-link" aria-current="page">Members</a></li>
+    <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
+    <li class="nav-item"><a href="recepies.html" class="nav-link">Recepies</a></li>
+    <li class="nav-item"><a href="img_gallery.html" class="nav-link">Gallery</a></li>
+    <li class="nav-item"><a href="where_to_eat.html" class="nav-link">Eat In Aberdeen</a></li>
+  </ul>
+
 
 
 </nav>
 
-</br>
-</br>
-<br>
+
 
 
 <main>
+  <hr>
 
   <div class="Mem">
-    <h2>Members</h2>
+    <h2 class="Mem">Members</h2>
   </div>
-  <hr>
+  <br>
+  <br>
+  <br>
+
 
   <div class="row featurette">
     <div class="col-md-7 order-md-2">
@@ -87,16 +93,27 @@
     </div>
   </div>
 
-
+<hr>
 
 </main>
 <aside>
-  <h4>Latest Tweets</h4>
 
 </aside>
 
 
-<footer> <p> Copyright Matus Illith</p>
+<footer>
+
+  <h4 class ="bottom_Contact"> <a href="contact_us.html">Contact Us</a></h4>
+  <p> <form>
+  <h5>Subscribe to our newsletter</h5>
+  <p>Monthly digest of what's new and exciting from us.</p>
+  <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+    <label for="newsletter1" class="visually-hidden">Email address</label>
+    <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+    <button class="btn btn-primary" type="button">Subscribe</button>
+  </div>
+  <p>school project</p>
+</form></p>
 
 </footer>
 
