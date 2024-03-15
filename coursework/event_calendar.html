@@ -5,7 +5,7 @@
 
 <body>
 <header>
-  <div class="contajner">
+  <div class="contajnerHeader">
     <div class="logo">
       <img src="IMG/Logo.jpg"/>
     </div>
@@ -18,21 +18,37 @@
 </header>
 
 
-<nav class="d-flex justify-content-center py-3">
+<nav class="navbar sticky-top bg-body-tertiary ">
 
-  <ul class="nav nav-pills">
-    <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-    <li class="nav-item"><a href="contact_us.html" class="nav-link">Conract Us</a></li>
-    <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
-    <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
-    <li class="nav-item"><a href="recepies.html" class="nav-link">Recepies</a></li>
-    <li class="nav-item"><a href="img_gallery.html" class="nav-link">Gallery</a></li>
-    <li class="nav-item"><a href="where_to_eat.html" class="nav-link">Eat In Aberdeen</a></li>
-  </ul>
+  <div class="container-fluid">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="contact_us.html" class="nav-link">Conract Us</a></li>
+      <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
+      <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
+      <li class="nav-item"><a href="recepies.html" class="nav-link">Recepies</a></li>
+      <li class="nav-item"><a href="img_gallery.html" class="nav-link">Gallery</a></li>
+      <li class="nav-item"><a href="where_to_eat.html" class="nav-link">Eat In Aberdeen</a></li>
+
+    </ul>
+
+
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email">
+      <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password">
+      <button class="btn btn-outline-success" type="submit" onclick="alert('You have been loggedin!')">login</button>
+    </form>
+  </div>
+
+
+
+
+
 
 
 
 </nav>
+
 
 <main>
 
@@ -90,7 +106,7 @@
     </tr>
 
     <tr>
-      <th>W10</th><td>See you next semseter <br/> Online </td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <th>W10</th><td></td><td>See you next semseter <br/> Online </td><td></td><td></td><td></td><td></td><td></td>
     </tr>
 
 
@@ -119,7 +135,7 @@
     <div class="d-flex flex-column flex-sm-row w-100 gap-2">
       <label for="newsletter1" class="visually-hidden">Email address</label>
       <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-      <button class="btn btn-primary" type="button">Subscribe</button>
+      <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
   <p>school project</p>
   </form></p>

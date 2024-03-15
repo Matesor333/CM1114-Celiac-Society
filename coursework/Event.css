@@ -151,3 +151,10 @@ Table th{
     background-color: #e5eaff;
 
 }
+.contajnerHeader {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+    margin: 20px;
+}

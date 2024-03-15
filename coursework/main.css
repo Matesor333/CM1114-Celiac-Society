@@ -42,12 +42,7 @@ h4 {
 
 
 /*Logo */
-.contajner {
-display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-}
+
 .img {
 
     max-width: 100%;
@@ -66,11 +61,11 @@ main{
     /*margin:0;*/
 }
 /*Navigation bar*/
-nav{
+/*nav{
 
     background: #FFFAE5;
     padding: 0 20px 0 20px;
-}
+}*/
 /*contuct us */
 aside{
 
@@ -189,5 +184,13 @@ Nav ul {
     text-align: center;
 }
 
+
+
+.carousel img {
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 

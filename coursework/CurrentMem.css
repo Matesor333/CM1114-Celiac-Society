@@ -177,7 +177,11 @@ Nav ul {
 }
 
 
-
-
-
+.contajnerHeader {
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin: 20px;
+}
 
