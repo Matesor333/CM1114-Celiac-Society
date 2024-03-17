@@ -193,7 +193,7 @@ Nav ul {
     object-position: center;
 }
 
-
+/* restaruants*/
 .column {
     float: left;
     width: 33.33%;
@@ -214,4 +214,18 @@ Nav ul {
     width: 500px;
     height: 500px;
 }
+/*Star rating*/
 
+/*
+*
+*
+*
+*/
+
+.star {
+    font-size: 40px;
+    color: gray;
+}
+.filled {
+    color: gold;
+}
