@@ -194,3 +194,24 @@ Nav ul {
 }
 
 
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right {
+    width: 25%;
+
+}
+.img{
+    width: 500px;
+    height: 500px;
+}
+
