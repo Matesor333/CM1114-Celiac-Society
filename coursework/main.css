@@ -223,17 +223,30 @@ Nav ul {
 */
 
 .star {
+
+    cursor:pointer;
     font-size: 40px;
     color: gray;
 }
 .starExpress {
+    cursor:pointer;
     font-size: 40px;
     color: gray;
 }
 .starAmarone {
+    cursor:pointer;
     font-size: 40px;
     color: gray;
 }
 .filled {
     color: gold;
+}
+@media screen and (max-width: 1200px) {
+    .column {
+        width: 100%;
+    }
+    .Name{
+        Font-size:180%;
+    }
+
 }
