@@ -37,10 +37,25 @@
 
 
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password">
-            <button class="btn btn-outline-success" type="submit" onclick="alert('You have been loggedin!')">login</button>
+            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
+            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
+            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+
+
+
         </form>
+        <script>
+            var counter = 2;
+            function login() {
+                if (counter % 2 == 0) {
+                    alert('You have been logged in!');
+                } else {
+                    alert('You have been logged out!');
+                }
+                counter += 1;
+            }
+        </script>
+
     </div>
 
 
@@ -56,10 +71,142 @@
 
 <main>
 
+    <button class="accordion">Breakfast</button>
+    <div class="panel">
+        <div class="row">
+            <div class="column">
+                <img class ="img" src="IMG/hbgf.jpg">
+            </div>
+            <div class="column">
+
+                <h2>Banana pancakes</h2>
+                <hr>
+                <h3>STEP 1</h3>
+               <p>Mix the banana, eggs and peanut butter in a small blender, and whizz until smooth.</p>
+
+                <h3>STEP 2</h3>
+                <p>Heat a spray of oil in a non-stick pan over a medium heat and drop spoonfuls of the batter into the pan.</p>
+
+                <h3>STEP 3</h3>
+                <p>Cook for a few minutes before flipping. These take longer to cook than a flour batter – and flip them confidently, as they won’t set on top like regular pancakes.</p>
+
+               <h3>STEP 4</h3>
+                <p>Fry on the other side until golden and set. Serve with chopped banana and a drizzle of maple syrup, if you like.</p>
+
+
+            </div>
+
+            <div class="column">
+                <br>
+                <h2>Ingredients</h2>
+                <p>1 ripe banana, mashed</p>
+                   <p> 2 eggs, beaten</p>
+                    <p>1 tbsp  peanut butter</p>
+                    <p>spray olive oil</p>
+                    <p>maple syrup (optional)</p>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column">
+                <img class="img" src="IMG/omelet.jpg">
+
+            </div>
+            <div class="column">
+                <h2>Omelet</h2>
+                <hr>
+                <h3>STEP 1</h3>
+                <p>Heat the grill. Melt a knob of butter in a small non-stick frying pan, add the mushrooms, season and cook until soft and golden. Add the garlic halfway through cooking the mushrooms so it doesn’t burn.</p>
+                <h3>Step 2</h3>
+                <p>Scrape the mushrooms out of the pan and add another knob of butter. Pour in the eggs and let the bottom set a little, then draw in the sides and let the uncooked egg flow into the gaps. Once the egg is almost set, scatter over the mushrooms and lay the taleggio slices on top. Flash under the hot grill to just set the top and start to melt the cheese. Remove and top with the rocket just before serving.</p>
+
+            </div>
+            <div class="column">
+                <h2>Ingredients</h2>
+                <p>butter, for frying</p>
+                <p>150g chestnut mushrooms, sliced</p>
+                <p>1/2 clove garlic, crushed</p>
+                <p>2 eggs, beaten and seasoned</p>
+                <p>50g taleggio, sliced</p>
+                <p>a handful rocket, lightly dressed, to serve</p>
+
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="column">
+                <img class="img" src="IMG/hashbrown.jpg">
+
+            </div>
+            <div class="column">
+                <h2>Hash Brown With Fried Eggs</h2>
+                <hr>
+                <h3>Step 1</h3>
+                <p>Put the potatoes whole into a large pan and fill with cold water. Bring to a simmer, then cook for 8 minutes or until starting to soften round the edges. Drain really well, allow to cool, then coarsely grate the potatoes into a bowl.</p>
+                <h3>Step 2</h3>
+                <p>Meanwhile, put the bacon into a pan and cook gently over a low heat until really crisp.</p>
+                <h3>Step 3</h3>
+                <p>Tip the bacon and any fat plus the spring onions and cheddar into the bowl of grated potato, add lots of seasoning and mix well.</p>
+                <h3>Step 4</h3>
+                <p>Heat 1 tbsp of vegetable oil in a 22cm non-stick frying pan and cook ½ the mix, squashing it down with a spatula into a patty. Cook for 5 minutes or until crisp, then flip and repeat. Keep warm in a low oven while you fry the other one, then keep both warm in a low oven.</p>
+                <h3>Step 5</h3>
+                <p>Fry the eggs to your liking, then cut the hash browns in 1/2 and serve each with an egg and brown sauce, if you like.</p>
+
+
+            </div>
+            <div class="column">
+                <h2>Ingredients</h2>
+                <p>500g King Edward potatoes, peeled</p>
+                <p>6 rashers streaky bacon, finely chopped</p>
+                <p>2 spring onions, sliced</p>
+                <p>100g cheddar, grated</p>
+                <p>2 tbsp vegetable oil</p>
+                <p>4 eggs</p>
+                <p>to serve brown sauce</p>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <button class="accordion">Lunch</button>
+    <div class="panel">
+
+
+    </div>
+
+    <button class="accordion">Dinner</button>
+    <div class="panel">
+
+    </div>
+
+    <script>var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            /* Toggle between adding and removing the "active" class,
+            to highlight the button that controls the panel */
+            this.classList.toggle("active");
+
+            /* Toggle between hiding and showing the active panel */
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+    </script>
+
+
 </main>
 
 <aside>
-    <h4>Latest Tweets</h4>
+
 
 </aside>
 

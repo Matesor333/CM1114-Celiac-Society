@@ -84,42 +84,7 @@ footer{
     background: slategray;
     padding-bottom: 5px;
 }
-/*nav li{
-    border : 5px;
 
-
-    border: 2px solid rgba(225, 189, 2, 1) ;
-    background-color:#FFFAE5;
-    list-style-type: none;
-    float: left;
-    width: 10%;
-    padding: 15px;
-
-}
-nav li a{
-    color:black;
-    text-align: center;
-    text-decoration: none;
-
-
-}
-Nav li:hover{
-    color: black;
-}
-.active{
-    background-colore:interactive ;
-}
-Nav>li{
-    display: inline-block;
-
-}
-Nav ul {
-    margin: 0;
-    padding: 50px ;
-    overflow: hidden;
-
-}
-*/
 
 
 table {
@@ -157,4 +122,11 @@ Table th{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2px;
     margin: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .Name{
+        Font-size:180%;
+    }
+
 }

@@ -34,11 +34,24 @@
 
 
     <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email">
-      <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password">
-      <button class="btn btn-outline-success" type="submit" onclick="alert('You have been loggedin!')">login</button>
+      <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
+      <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
+      <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+
+
+
     </form>
-  </div>
+    <script>
+      var counter = 2;
+      function login() {
+        if (counter % 2 == 0) {
+          alert('You have been logged in!');
+        } else {
+          alert('You have been logged out!');
+        }
+        counter += 1;
+      }
+    </script>
 
 
 
@@ -47,6 +60,7 @@
 
 
 
+</div>
 </nav>
 
 

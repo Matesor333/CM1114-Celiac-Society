@@ -37,18 +37,30 @@
 
 
         <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password">
-            <button class="btn btn-outline-success" type="submit" onclick="alert('You have been loggedin!')">login</button>
+            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
+            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
+            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+
+
+
         </form>
+        <script>
+            var counter = 2;
+            function login() {
+                if (counter % 2 == 0) {
+                    alert('You have been logged in!');
+                } else {
+                    alert('You have been logged out!');
+                }
+                counter += 1;
+            }
+        </script>
+
+
+
+
+
     </div>
-
-
-
-
-
-
-
 
 </nav>
 
@@ -74,6 +86,7 @@
                 We are proud to offer a wide range of delicious, high-quality pizzas that cater to those with gluten sensitivities or preferences. Our mission is to ensure that everyone can enjoy the classic pizza experience, regardless of dietary restrictions.</p>
                <p> Our gluten-free pizzas are crafted with the same love and attention as all our dishes. We use a specially formulated gluten-free dough, topped with our signature tomato sauce and a variety of fresh, flavorful toppings. From classic Margherita to adventurous gourmet combinations, there is a pizza to satisfy every palate.
                 In addition to our pizzas, we also offer a selection of gluten-free salads, pastas, and desserts, so you can enjoy a complete meal that suits your dietary needs.</p>
+            <a href="https://www.facebook.com/pizzaexpress"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
             <h3>Give Us Rating</h3>
             <div>
                 <span class="starExpress" onclick="setRatingExpress(1)">&#9733;</span>
@@ -105,6 +118,7 @@
             <p>Ciao!
                 Ready for a slice of cosmopolitan Italy? Vibrant with chatter, the clink of glasses and the shake-a-shake-a-shake of cocktails from the central cocktail bar, Amarone has all the buzz of a restaurant in central Milan.</p>
                 <p>If you can resist the temptation of crisp pizza straight from the central oven, freshly made pastas filled with classic Italian combinations might turn your head. Need some more time to decide? Dunk warm homemade focaccia in rich beef ragu and take your time making your mind up.</p>
+
             <h3>Give Us Rating</h3>
             <div>
                 <span class="starAmarone" onclick="setRatingAmarone(1)">&#9733;</span>

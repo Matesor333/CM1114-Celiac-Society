@@ -1,3 +1,5 @@
+//stars
+
 var starsExpress = document.querySelectorAll('.starExpress');
 var ratingExpress = 0;
 
@@ -41,3 +43,15 @@ function setRating(ratingValue) {
         }
     });
 }
+
+//img gallery
+document.getElementById("img-gallery1").addEventListener("mouseover", highlight);
+document.getElementById("img-gallery1").addEventListener("mouseout", delight);
+function highlight() {
+    document.getElementById("img-gallery1").style="border: solid orange 5px;"
+}
+function delight() {
+    document.getElementById("img-gallery1").style=".col-sm: filter: blur(10px); "
+}
+
+//recepies
