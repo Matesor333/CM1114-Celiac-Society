@@ -120,7 +120,7 @@ Table th{
     display: flex;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2px;
+    column-gap: 3px;
     margin: 20px;
 }
 

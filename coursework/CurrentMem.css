@@ -37,6 +37,9 @@ h4 {
 
 
 /*Logo */
+.logo{
+    margin-right: 10px;
+}
 .contajner {
     display: grid;
     align-items: center;

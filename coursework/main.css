@@ -211,8 +211,8 @@ Nav ul {
 
 }
 .img{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
 }
 /*Star rating*/
 
@@ -265,14 +265,28 @@ Nav ul {
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
-    background-color: #ccc;
+.active{
+    background-color: #eee;
+}
+.accordion:hover {
+    background-color: #e5eaff;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #e5eaff;
     display: none;
     overflow: hidden;
+}
+.lineMeals{
+
+    top: 20px;
+    border: none;
+    height: 5px;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.acc{
+    text-align: center;
 }
