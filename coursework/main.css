@@ -184,13 +184,17 @@ Nav ul {
     text-align: center;
 }
 
-
+/*Gallery*/
 
 .carousel img {
     height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: center;
+}
+
+.imgBlurr{
+    border:3px solid orangered;
 }
 
 /* restaruants*/

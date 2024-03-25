@@ -105,15 +105,15 @@
   <div id="img-gallery" class="container">
     <div  class="row">
       <div class="col-sm">
-        <img src="IMG/IMG_celiac.jpg"/>
+        <img src="IMG/IMG_celiac.jpg" class="Blurr" id ="img6" onmouseenter="change(this)" onmouseleave="change(this)"/>
 
         </div>
       <div class="col-sm">
-        <img  src="IMG/IMG_celaic4.jpg" />
+        <img  src="IMG/IMG_celaic4.jpg" class="Blurr" id ="img5" onmouseenter="change(this)" onmouseleave="change(this)" />
 
       </div>
       <div class="col-sm">
-        <img src="IMG/IMG_celiac3.jpg"/>
+        <img src="IMG/IMG_celiac3.jpg" class="Blurr" id ="img4" onmouseenter="change(this)" onmouseleave="change(this)"/>
 
       </div>
 
@@ -121,15 +121,15 @@
 
     <div class="row">
       <div class="col-sm">
-        <img src="IMG/OIP.jpeg"/>
+        <img src="IMG/OIP.jpeg" class="Blurr" id ="img3" onmouseenter="change(this)" onmouseleave="change(this)"/>
 
       </div>
       <div class="col-sm">
-        <img src="IMG/Logo.jpg"/>
+        <img src="IMG/Logo.jpg" class="Blurr" id ="img2" onmouseenter="change(this)" onmouseleave="change(this)"/>
 
       </div>
       <div class="col-sm">
-        <img src="IMG/IMG_Celiac 2.jpg"/>
+        <img src="IMG/IMG_Celiac 2.jpg" class="Blurr" id ="img1" onmouseenter="change(this)" onmouseleave="change(this)"/>
 
       </div>
     </div>
@@ -137,7 +137,12 @@
 
 
   </div>
-  <script src="hello.js"> </script>
+  <script>
+    function change(element){
+      element.classList.toggle("imgBlurr");
+    }
+
+  </script>
 
 </main>
 
