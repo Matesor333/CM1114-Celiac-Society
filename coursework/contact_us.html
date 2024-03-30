@@ -7,7 +7,7 @@
 <header>
     <div class="contajner">
         <div class="logo">
-            <img src="IMG/Logo.jpg"/>
+            <img src="IMG/Logo.jpg" alt="Logo"/>
         </div>
         <h1 class="Name">
             Robert Gordon University Celiac Society
@@ -34,25 +34,15 @@
 
         </ul>
 
-
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
-            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+        <form class="d-flex" role="search" name = "Account">
+            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
         </form>
-        <script>
-            var counter = 2;
-            function login() {
-                if (counter % 2 == 0) {
-                    alert('You have been logged in!');
-                } else {
-                    alert('You have been logged out!');
-                }
-                counter += 1;
-            }
+        <script src="hello.js">
         </script>
 
 
@@ -141,7 +131,8 @@
         <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
 </form></p>
-    <p>school project</p>
+    <p>Copyright Matus Illith</p>
+    <p>C 2024</p>
 
 </footer>
 

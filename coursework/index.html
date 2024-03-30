@@ -22,17 +22,6 @@
 </header>
 
 
-<!--nav>
-    <li class="active"><a href="index.html">index</a></li>
-    <li class = "active"><a href="contact_us.html">contact</a></li>
-    <li class = "active"><a href="current_members.html">memmbers</a></li>
-   <li clas = "active"> <a href="event_calendar.html">calender</a></li>
-    <li class = "active"><a href="img_gallery.html">img</a></li>
-    <li class = "active"><a href="where_to_eat.html">where to eat</a></li>
-    <li class ="active"><a href="recepies.html">what to cook</a></li>
-
-
-</nav>-->
 
 <nav class="navbar sticky-top bg-body-tertiary ">
 
@@ -49,24 +38,15 @@
     </ul>
 
 
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
-            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+        <form class="d-flex" role="search" name = "Account">
+            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
         </form>
-        <script>
-            var counter = 2;
-            function login() {
-                if (counter % 2 == 0) {
-                    alert('You have been logged in!');
-                } else {
-                    alert('You have been logged out!');
-                }
-                counter += 1;
-            }
+        <script src="hello.js">
         </script>
 
 
@@ -116,15 +96,8 @@
     </div>
     <hr>
 
-    <div class="video">
-
-            <h2>
-                What is Gluten??
-            </h2>
 
 
-            <iframe width="700" height="393" src="https://www.youtube.com/embed/YRORQKtnw58?si=nH_oICSqwUA-LGIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="YouTUbe video explaining what is gluten"></iframe></iframe>
-    </div>
 
 
 
@@ -132,11 +105,21 @@
 </main>
 
 <aside>
-    <br>
+    <div class="video">
+
+        <h2>
+            What is Gluten??
+        </h2>
 
 
+        <iframe width="700" height="393" src="https://www.youtube.com/embed/YRORQKtnw58?si=nH_oICSqwUA-LGIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen alt="YouTube video explaining what is gluten"></iframe></iframe>
+
+
+    </div>
+
+    </br>
     <h2><a href="contact_us.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Come and Join Us</a></h2>
-<br>
+    <br>
 
 </aside>
 
@@ -152,7 +135,8 @@
         <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
 </form></p>
-    <p>school project</p>
+    <p>Copyright Matus Illith</p>
+    <p>C 2024</p>
 
 </footer>
 

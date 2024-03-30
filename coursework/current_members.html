@@ -7,7 +7,7 @@
 <header>
   <div class="contajnerHeader">
     <div class="logo">
-      <img src="IMG/Logo.jpg"/>
+      <img src="IMG/Logo.jpg" alt="Logo"/>
     </div>
     <h1 class="Name">
       Robert Gordon University Celiac Society
@@ -33,26 +33,16 @@
 
     </ul>
 
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
-      <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
-      <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+    <form class="d-flex" role="search" name = "Account">
+      <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+      <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+      <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
     </form>
-    <script>
-      var counter = 2;
-      function login() {
-        if (counter % 2 == 0) {
-          alert('You have been logged in!');
-        } else {
-          alert('You have been logged out!');
-        }
-        counter += 1;
-      }
+    <script src="hello.js">
     </script>
-
 
 
 
@@ -83,7 +73,7 @@
       <p class="lead">He stepped down from his position to spread avearnes and to help celiacs in Aberdeen. To achieve his goal he started this society. </p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img src="IMG/CEO.jpg" class="img-fluid" alt="Your Image">
+      <img src="IMG/CEO.jpg" class="img-fluid" alt="Photo of CEO">
         <title>CEO</title>
 
       </img>
@@ -98,7 +88,7 @@
       <p class="lead">Gordon Ramsey is also Our personal cook for all our events. You can ask him anything about Gluten-Free cooking at our events</p>
     </div>
     <div class="col-md-5">
-      <img src="IMG/gordon-ramsay-factsllll.png" class="img-fluid" alt="Your Image">
+      <img src="IMG/gordon-ramsay-factsllll.png" class="img-fluid" alt="Photo of head Chef Gordon Ramsay">
       <title>Head Chef</title>
 
       </img>
@@ -113,7 +103,7 @@
       <p class="lead"> He came all the way from italy to help us create the best italian pasta. He also serves a role here as our teacher in cooking classes </p>
     </div>
     <div class="col-md-5 order-md-1">
-      <img src="IMG/R.jpeg" class="img-fluid" alt="Your Image">
+      <img src="IMG/R.jpeg" class="img-fluid" alt="Photo of Massimo Bottura pasta chef">
       <title>CEO</title>
 
       </img>
@@ -139,7 +129,8 @@
     <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
     <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
   </div>
-  <p>school project</p>
+  <p>Copyright Matus Illith</p>
+  <p>C 2024</p>
 </form></p>
 
 </footer>

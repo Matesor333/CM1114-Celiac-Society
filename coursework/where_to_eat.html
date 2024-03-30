@@ -7,7 +7,7 @@
 <header>
     <div class="contajnerHeader">
         <div class="logo">
-            <img src="IMG/Logo.jpg"/>
+            <img src="IMG/Logo.jpg" alt="Logo"/>
         </div>
         <h1 class="Name">
             Robert Gordon University Celiac Society
@@ -36,24 +36,15 @@
         </ul>
 
 
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
-            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+        <form class="d-flex" role="search" name = "Account">
+            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
         </form>
-        <script>
-            var counter = 2;
-            function login() {
-                if (counter % 2 == 0) {
-                    alert('You have been logged in!');
-                } else {
-                    alert('You have been logged out!');
-                }
-                counter += 1;
-            }
+        <script src="hello.js">
         </script>
 
 
@@ -75,7 +66,7 @@
 
     <div class="row">
         <div class="column">
-            <img class ="img" src="IMG/PizzaExpress.jpg">
+            <img class ="img" src="IMG/PizzaExpress.jpg" alt=" Photo of Pizza Express">
 
         </div>
         <div class="column">
@@ -89,11 +80,14 @@
             <a href="https://www.facebook.com/pizzaexpress"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
             <h3>Give Us Rating</h3>
             <div>
-                <span class="starExpress" onclick="setRatingExpress(1)">&#9733;</span>
-                <span class="starExpress" onclick="setRatingExpress(2)">&#9733;</span>
-                <span class="starExpress" onclick="setRatingExpress(3)">&#9733;</span>
-                <span class="starExpress" onclick="setRatingExpress(4)">&#9733;</span>
-                <span class="starExpress" onclick="setRatingExpress(5)">&#9733;</span>
+                <br />
+                <span onclick="gfg(1)" class="star" >&#9733;</span>
+                <span onclick="gfg(2)" class="star">&#9733;</span>
+                <span onclick="gfg(3)" class="star">&#9733;</span>
+                <span onclick="gfg(4)" class="star">&#9733;</span>
+                <span onclick="gfg(5)" class="star">&#9733;</span>
+
+                <script src="script.js"></script>
             </div>
 
         </div>
@@ -109,7 +103,7 @@
 
     <div class="row">
         <div class="column">
-            <img class ="img" src="IMG/Amarone%20Aberdeen.jpg">
+            <img class ="img" src="IMG/Amarone%20Aberdeen.jpg" alt="photo of Amarone restaurant">
 
         </div>
         <div class="column">
@@ -121,11 +115,14 @@
             <a href="https://www.facebook.com/amaronerestaurants/"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
             <h3>Give Us Rating</h3>
             <div>
-                <span class="starAmarone" onclick="setRatingAmarone(1)">&#9733;</span>
-                <span class="starAmarone" onclick="setRatingAmarone(2)">&#9733;</span>
-                <span class="starAmarone" onclick="setRatingAmarone(3)">&#9733;</span>
-                <span class="starAmarone" onclick="setRatingAmarone(4)">&#9733;</span>
-                <span class="starAmarone" onclick="setRatingAmarone(5)">&#9733;</span>
+                <br />
+                <span onclick="gfg(1)" class="star">&#9733;</span>
+                <span onclick="gfg(2)" class="star">&#9733;</span>
+                <span onclick="gfg(3)" class="star">&#9733;</span>
+                <span onclick="gfg(4)" class="star">&#9733;</span>
+                <span onclick="gfg(5)" class="star">&#9733;</span>
+
+                <script src="script.js"></script>
             </div>
 
 
@@ -143,7 +140,7 @@
 
     <div class="row">
         <div class="column">
-            <img class ="img" src="IMG/Anadaluz.jpeg">
+            <img class ="img" src="IMG/Anadaluz.jpeg" alt=" Photo of Anadaluz">
 
         </div>
         <div class="column">
@@ -155,11 +152,14 @@
             <a href="https://www.facebook.com/cafeandaluzdrg/reviews"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
             <h3>Give Us Rating</h3>
             <div>
-                <span class="star" onclick="setRating(1)">&#9733;</span>
-                <span class="star" onclick="setRating(2)">&#9733;</span>
-                <span class="star" onclick="setRating(3)">&#9733;</span>
-                <span class="star" onclick="setRating(4)">&#9733;</span>
-                <span class="star" onclick="setRating(5)">&#9733;</span>
+                <br />
+                <span onclick="gfg(1)" class="star">&#9733;</span>
+                <span onclick="gfg(2)" class="star">&#9733;</span>
+                <span onclick="gfg(3)" class="star">&#9733;</span>
+                <span onclick="gfg(4)" class="star">&#9733;</span>
+                <span onclick="gfg(5)" class="star">&#9733;</span>
+
+                <script src="script.js"></script>
             </div>
 
 
@@ -193,8 +193,9 @@
         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
         <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
-    <p>school project</p>
-</form></p>
+    <p>Copyright Matus Illith</p>
+    <p>C 2024</p>
+</form>
 
 </footer>
 

@@ -86,20 +86,25 @@ footer{
 }
 
 
-
 table {
 
 
     border-collapse: collapse;
     background-color: #e5eaff;
-   margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    table-layout: fixed;
+    padding:5px;
+
 }
 
 
 table td,table th {
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    border: 2px solid black;
+    padding:8px;
 
-    border: 1px solid black;
 
 }
 Table tr:nth-child(even) {
@@ -115,6 +120,7 @@ Table th{
     color: black;
     background-color: #e5eaff;
 
+
 }
 .contajnerHeader {
     display: flex;
@@ -128,5 +134,23 @@ Table th{
     .Name{
         Font-size:180%;
     }
+
+}
+/*
+Form
+*/
+.rec_Event{
+    display: flex;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    margin: 30px;
+
+
+}
+.form{
+
+    float:left;
+    width: 100%;
 
 }

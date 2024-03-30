@@ -7,7 +7,7 @@
 <header>
     <div class="contajnerHeader">
         <div class="logo">
-            <img src="IMG/Logo.jpg"/>
+            <img src="IMG/Logo.jpg" alt="Logo"/>
         </div>
         <h1 class="Name">
             Robert Gordon University Celiac Society
@@ -36,26 +36,16 @@
         </ul>
 
 
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Email" aria-label="Email" alt="Account Email">
-            <input class="form-control me-2" type="search" placeholder="Password" aria-label="Password" alt="Account Password">
-            <button class="btn btn-outline-success" type="button" onclick='login()' alt="LogIn to account">login</button>
+        <form class="d-flex" role="search" name = "Account">
+            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
         </form>
-        <script>
-            var counter = 2;
-            function login() {
-                if (counter % 2 == 0) {
-                    alert('You have been logged in!');
-                } else {
-                    alert('You have been logged out!');
-                }
-                counter += 1;
-            }
+        <script src="hello.js">
         </script>
-
     </div>
 
 
@@ -82,7 +72,7 @@
         <div class="row">
 
             <div class="column">
-                <img class="img" src="IMG/Tortilla-de-Patatas.jpg">
+                <img class="img" src="IMG/Tortilla-de-Patatas.jpg" alt="Tortilla-de-Patatas Photo">
 
             </div>
             <div class="column">
@@ -115,7 +105,7 @@
         <hr class="lineMeals">
         <div class="row">
             <div class="column">
-                <img class="img" src="IMG/omelet.jpg">
+                <img class="img" src="IMG/omelet.jpg" alt="Omelet Photo">
 
             </div>
             <div class="column">
@@ -141,7 +131,7 @@
         <hr class="lineMeals">
         <div class="row">
             <div class="column">
-                <img class="img" src="IMG/hashbrown.jpg">
+                <img class="img" src="IMG/hashbrown.jpg" alt="Hash Brown Photo">
 
             </div>
             <div class="column">
@@ -183,7 +173,7 @@
             <div class="row">
 
                 <div class="column">
-                    <img class="img" src="IMG/pinterest-fresh-pasta.jpg">
+                    <img class="img" src="IMG/pinterest-fresh-pasta.jpg" alt="Pasta Photo">
 
                 </div>
                 <div class="column">
@@ -220,7 +210,7 @@
             <div class="row">
 
                 <div class="column">
-                    <img class="img" src="IMG/The-Best-Gluten-Free-Pizza-Recipe.jpg">
+                    <img class="img" src="IMG/The-Best-Gluten-Free-Pizza-Recipe.jpg" alt="Pizza Photo">
 
                 </div>
                 <div class="column">
@@ -256,7 +246,7 @@
             <div class="row">
 
                 <div class="column">
-                    <img class="img" src="IMG/Paella-7.jpg">
+                    <img class="img" src="IMG/Paella-7.jpg" alt="Paella Photo">
 
                 </div>
                 <div class="column">
@@ -308,7 +298,7 @@
 
 
                 <div class="column">
-                    <img class ="img" src="IMG/hbgf.jpg">
+                    <img class ="img" src="IMG/hbgf.jpg" alt="Photo of Banna Pancakes">
                 </div>
                 <div class="column">
 
@@ -346,7 +336,7 @@
 
 
                 <div class="column">
-                    <img class ="img" src="IMG/Loin.jpg">
+                    <img class ="img" src="IMG/Loin.jpg" alt="SirLion photo">
                 </div>
                 <div class="column">
 
@@ -394,7 +384,7 @@
 
 
             <div class="column">
-                <img class ="img" src="IMG/skewers.jpeg">
+                <img class ="img" src="IMG/skewers.jpeg" alt="Photo of skewers">
             </div>
             <div class="column">
 
@@ -421,7 +411,7 @@
         <div class="row">
 
             <div class="column">
-                <img class ="img" src="IMG/Chocolate-Date-Energy-Balls_EXPS_RC20_255035_B09_09_1b.jpg">
+                <img class ="img" src="IMG/Chocolate-Date-Energy-Balls_EXPS_RC20_255035_B09_09_1b.jpg" alt="Chocolate Energy balls photo">
             </div>
             <div class="column">
 
@@ -449,7 +439,7 @@
 
 
                 <div class="column">
-                    <img class ="img" src="IMG/Gluten-and-Dairy-Free-Cinnamon-Raisin-Bread_EXPS_FT19_227132_F_0723_1-20.jpg">
+                    <img class ="img" src="IMG/Gluten-and-Dairy-Free-Cinnamon-Raisin-Bread_EXPS_FT19_227132_F_0723_1-20.jpg" alt="Photo of Cinnamon bread">
                 </div>
                 <div class="column">
 
@@ -487,11 +477,10 @@
 
     for (i = 0; i < acc.length; i++) {
         acc[i].addEventListener("click", function() {
-            /* Toggle between adding and removing the "active" class,
-            to highlight the button that controls the panel */
+
             this.classList.toggle("active");
 
-            /* Toggle between hiding and showing the active panel */
+
             var panel = this.nextElementSibling;
             if (panel.style.display === "block") {
                 panel.style.display = "none";
@@ -513,7 +502,7 @@
         </h2>
         <br>
 
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Video of how to cook"></iframe></iframe>
 
     </div>
 
@@ -541,8 +530,9 @@
         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
         <button class="btn btn-outline-primary" type="button" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
-    <p>school project</p>
-</form></p>
+    <p>Copyright Matus Illith</p>
+    <p>C 2024</p>
+</form>
 
 </footer>
 
