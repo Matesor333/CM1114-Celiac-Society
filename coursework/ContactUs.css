@@ -114,6 +114,7 @@ Nav ul {
 
 }
 */
+/* for logo and name 2 coolum plus form and tweets*/
 .contajner{
     display: flex;
     align-items: center;
@@ -123,12 +124,14 @@ Nav ul {
 
 
 }
+/*form style*/
 .form{
 
     float:left;
     width: 100%;
 
 }
+/*tweets style */
 .tweets{
     float:left;
 
@@ -136,19 +139,21 @@ Nav ul {
 
 
 }
-
+/* legend of the form*/
 legend{
     font-weight: bold;
     font-size: 20px;
 }
+/*logo*/
 .logo{
     margin-right: 10px;
 }
+/*for contact us headline specific*/
 .cu{
     font-size: 40px;
     text-align: center;
 }
-
+/*to make it fit the screen*/
 @media screen and (max-width: 1200px) {
     .contajner {
         width: 100%;

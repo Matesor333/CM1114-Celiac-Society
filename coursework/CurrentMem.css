@@ -125,60 +125,14 @@ Nav ul {
     overflow: hidden;
 
 }*/
-.CeoContajner{
-    display: flex;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 20px;
 
-}
-
-
-.CeoContajner{
-    margin-left:20px;
-    background-color: #e5eaff;
-    flex:1;
-    max-width: 100%;
-    height: auto;
-
-}
-
-
-.NameCEO{
-    margin-right: 120px;
-    background-color: #e5eaff;
-    max-width: 100%;
-    max-height: 100%;
-    flex: 1;
-}
-
-
-
-.NameChef{
-    margin-right: 120px;
-    background-color: #e5eaff;
-    max-width: 100%;
-    max-height: 100%;
-    flex: 1;
-
-}
-
-
-.NameSuChef{
-    margin-right: 120px;
-    background-color: #e5eaff;
-    max-width: 100%;
-    max-height: 100%;
-    flex: 1;
-
-}
-
+/*name if the page*/
 .Mem{
     font-size:40px;
     text-align: center;
     padding-left:10px;
 }
-
+/*Logo and name of society 2 collum*/
 
 .contajnerHeader {
     display: flex;
@@ -187,7 +141,7 @@ Nav ul {
     column-gap: 0px;
     margin: 20px;
 }
-
+/*make it fit the screen*/
 @media screen and (max-width: 1200px) {
     .Name{
         Font-size:180%;

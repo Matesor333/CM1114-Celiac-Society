@@ -1,3 +1,6 @@
+
+/*general page style*/
+
 body {
     background : #FFFAE5;
 }
@@ -9,6 +12,7 @@ header {
     margin: auto;
 
 }
+/*logopicture*/
 .logo{
     margin-right: 10px;
 }
@@ -34,50 +38,23 @@ h4 {
     font-family: -apple-system;
     font-size:10px;
 }
-
-
-.contajner {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 15px;
-}
-.img {
-
-    max-width: 100%;
-    max-height: 100%;
-
-}
-.Name {
-
-}
-
-
-
-
+/*main*/
 main{
     background-color: #FFFAE5 ;
 }
-
-
-nav{
-
-    background: #FFFAE5;
-    padding: 0 20px 0 20px;
-}
+/*page name*/
 .Mem{
     font-size: 40px;
     text-align: center;
     padding-left:10px;
 }
-aside{
 
-    background: #FFFAE5;
-    text-align: center;
-}
+
+/*bottom cintact us button*/
 .bottom_Contact{
     font-size: 20px ;
 }
+
 footer{
     font-size: 20px;
 
@@ -85,7 +62,7 @@ footer{
     padding-bottom: 5px;
 }
 
-
+/*table style*/
 table {
 
 
@@ -96,7 +73,7 @@ table {
     padding:5px;
 
 }
-
+/* cells of table*/
 
 table td,table th {
     width: 100%;
@@ -107,21 +84,26 @@ table td,table th {
 
 
 }
+
 Table tr:nth-child(even) {
 
     background-color: #e5eaff ;
 
 }
+/*hover over table*/
 Table tr:hover{
 
     background-color:#FFFAE5 ;
 }
+
+
 Table th{
     color: black;
     background-color: #e5eaff;
 
 
 }
+/*2 collum logo name*/
 .contajnerHeader {
     display: flex;
     align-items: center;
@@ -130,9 +112,10 @@ Table th{
     margin: 20px;
 }
 
+/*fit the screen*/
 @media screen and (max-width: 1200px) {
     .Name{
-        Font-size:180%;
+        Font-size:140%;
     }
 
 }

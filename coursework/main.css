@@ -60,12 +60,6 @@ main{
     background-color:#FFFAE5 ;
     /*margin:0;*/
 }
-/*Navigation bar*/
-/*nav{
-
-    background: #FFFAE5;
-    padding: 0 20px 0 20px;
-}*/
 /*contuct us */
 aside{
 
@@ -150,16 +144,18 @@ Nav ul {
 
 
 }
+/*Paragraph On main page*/
 .Para{
     font-size: 15px;
 }
-
+/*for 2 collum layout on main page*/
 .contajner {
     display: flex;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 0px;
 }
+/*for logo and scoiety name 2 collum layout*/
 .contajnerHeader {
     display: flex;
     align-items: center;
@@ -167,6 +163,7 @@ Nav ul {
     column-gap: 0px;
     margin: 20px;
 }
+/*picture of the Celiac festival*/
 .fest{
     flex:1;
     max-width: 100%;
@@ -174,25 +171,27 @@ Nav ul {
 
 
 }
+/* div Text with heading and paragraph*/
 .Text{
 
     padding-right:0px;
     padding-left:10px;
     flex: 1;
 }
+/*Youtube video*/
 .video{
     text-align: center;
 }
 
 /*Gallery*/
-
+/*style for the carousel img*/
 .carousel img {
     height: 80%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-
+/*border of the lower gallery*/
 .imgBlurr{
     border:3px solid orangered;
 }
@@ -224,33 +223,7 @@ Nav ul {
 }
 /*Star rating*/
 
-/*
-*
-*
-*
-*/
-/*
-.star {
 
-    cursor:pointer;
-    font-size: 40px;
-    color: gray;
-}
-.starExpress {
-    cursor:pointer;
-    font-size: 40px;
-    color: gray;
-}
-.starAmarone {
-    cursor:pointer;
-    font-size: 40px;
-    color: gray;
-}
-.filled {
-    color: gold;
-}
-
-*/
 .star {
     font-size: 10vh;
     cursor: pointer;
@@ -265,11 +238,11 @@ Nav ul {
 }
 
 .three {
-    color: rgb(251, 255, 120);
+    color: rgb(186, 195, 27);
 }
 
 .four {
-    color: rgb(255, 255, 0);
+    color: rgb(186, 195, 27);
 }
 
 .five {
@@ -277,7 +250,7 @@ Nav ul {
 }
 
 
-
+/*making the coolum and name change with width of the screen*/
 @media screen and (max-width: 1200px) {
     .column {
         width: 100%;
@@ -301,7 +274,7 @@ Nav ul {
     transition: 0.4s;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* background color to the button if it is clicked on and when the mouse is over*/
 .active{
     background-color: #eee;
 }
@@ -309,7 +282,7 @@ Nav ul {
     background-color: #e5eaff;
 }
 
-/* Style the accordion panel. Note: hidden by default */
+/* Style the accordion panel.*/
 .panel {
     padding: 0 18px;
     background-color: #e5eaff;
