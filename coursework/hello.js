@@ -47,12 +47,23 @@ function setRating(ratingValue) {
 */
 
 
+
+/*stars for restaurants*/
+
+/*get the stars by class name*/
 let stars = document.getElementsByClassName("star");
 
-
+/*calls the function with the appropriate star number s n*/
 
 function gfg(n) {
-    remove();
+
+/*removes previous rating*/
+    let i = 0;
+    while (i < 5) {
+        stars[i].className = "star";
+        i++;
+    }
+    /*and for number of stars it will give them the appropriate colour*/
     for (let i = 0; i < n; i++) {
         if (n == 1) cls = "one";
         else if (n == 2) cls = "two";
@@ -64,13 +75,8 @@ function gfg(n) {
 
 }
 
-function remove() {
-    let i = 0;
-    while (i < 5) {
-        stars[i].className = "star";
-        i++;
-    }
-}
+
+/*login logout*/
 var counter = 2;
 function login() {
     if (counter % 2 == 0) {
@@ -80,6 +86,7 @@ function login() {
     }
     counter += 1;
 }
+/*checks password and email if it checks out call login logout*/
 
 function login_logout(){
     var email = document.forms["Account"]["Email"].value;
@@ -98,7 +105,7 @@ function login_logout(){
 }
 
 
-
+/*event title check functionality*/
 
 function submit_event(){
     var title = document.forms["rec_Event"]["event_title"].value;
@@ -115,4 +122,12 @@ function submit_event(){
 
     }
 }
+/*changing img gallery*/
+function change(element){
+    element.classList.toggle("imgBlurr");
+}
 
+function large(element){
+
+    element.classList.toggle("imgLarge");
+}

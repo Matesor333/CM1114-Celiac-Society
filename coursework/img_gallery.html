@@ -1,7 +1,18 @@
-<html xmlns:C="http://www.w3.org/1999/xhtml">
+<html>
 <head>
   <title>RGU Celiac Society</title>
 </head>
+
+<!--
+Threat Model
+Threat Source: External
+Threat Agent: Human
+Threat Intention: Intentional
+Threat Motivation: More publicity for other societies
+Threat Impact: Changing links for the gallery and images so when people click on it will be linked to other societies.
+Threat Mitigation: Login validation, 2FA in place before images
+can be changed And/or second verification by one of society stuff.
+-->
 
 <body>
 <header>
@@ -95,15 +106,15 @@
   <div id="img-gallery" class="container">
     <div  class="row">
       <div class="col-sm">
-        <img src="IMG/IMG_celiac.jpg" class="Blurr" id ="img6" onmouseenter="change(this)" onmouseleave="change(this) " alt=" Photo of our Home-Made bread"/>
+        <img src="IMG/IMG_celiac.jpg" class="Blurr" id ="img6" onmouseenter="change(this)" onmouseleave="change(this) " onclick="large(this)" alt=" Photo of our Home-Made bread"/>
 
         </div>
       <div class="col-sm">
-        <img  src="IMG/IMG_celaic4.jpg" class="Blurr" id ="img5" onmouseenter="change(this)" onmouseleave="change(this)" alt="Photo of Members"/>
+        <img  src="IMG/IMG_celaic4.jpg" class="Blurr" id ="img5" onmouseenter="change(this)" onmouseleave="change(this)" onclick="large(this)" alt="Photo of Members"/>
 
       </div>
       <div class="col-sm">
-        <img src="IMG/IMG_celiac3.jpg" class="Blurr" id ="img4" onmouseenter="change(this)" onmouseleave="change(this)"alt="Event Photo"/>
+        <img src="IMG/IMG_celiac3.jpg" class="Blurr" id ="img4" onmouseenter="change(this)" onmouseleave="change(this)" onclick="large(this)" alt="Event Photo"/>
 
       </div>
 
@@ -111,15 +122,15 @@
 
     <div class="row">
       <div class="col-sm">
-        <img src="IMG/OIP.jpeg" class="Blurr" id ="img3" onmouseenter="change(this)" onmouseleave="change(this)"alt="Event Photo"/>
+        <img src="IMG/OIP.jpeg" class="Blurr" id ="img3" onmouseenter="change(this)" onmouseleave="change(this)" onclick="large(this)" alt="Event Photo"/>
 
       </div>
       <div class="col-sm">
-        <img src="IMG/Logo.jpg" class="Blurr" id ="img2" onmouseenter="change(this)" onmouseleave="change(this)"alt="Logo of Celiac Society"/>
+        <img src="IMG/Logo.jpg" class="Blurr" id ="img2" onmouseenter="change(this)" onmouseleave="change(this)" onclick="large(this)" alt="Logo of Celiac Society"/>
 
       </div>
       <div class="col-sm">
-        <img src="IMG/IMG_Celiac 2.jpg" class="Blurr" id ="img1" onmouseenter="change(this)" onmouseleave="change(this)"alt="Logo of Celiac Society"/>
+        <img src="IMG/IMG_Celiac 2.jpg" class="Blurr" id ="img1" onmouseenter="change(this)" onmouseleave="change(this)" onclick="large(this)" alt="Logo of Celiac Society"/>
 
       </div>
     </div>
@@ -127,17 +138,13 @@
 
 
   </div>
-  <script>
-    function change(element){
-      element.classList.toggle("imgBlurr");
-    }
+  <script src="hello.js">
 
   </script>
 
 </main>
 
 <aside>
-  <h4>Latest Tweets</h4>
 
 </aside>
 
