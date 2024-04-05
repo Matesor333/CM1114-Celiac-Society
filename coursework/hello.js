@@ -1,66 +1,18 @@
-//stars
-/*
-var starsExpress = document.querySelectorAll('.starExpress');
-var ratingExpress = 0;
-
-function setRatingExpress(ratingValue) {
-    ratingExpress = ratingValue;
-
-    starsExpress.forEach((starExpress, index) => {
-        if (ratingExpress > index) {
-            starExpress.classList.add('filled');
-        } else {
-            starExpress.classList.remove('filled');
-        }
-    });
-}
-
-var starsAmarone = document.querySelectorAll('.starAmarone');
-var ratingAmarone = 0;
-function setRatingAmarone(ratingValue) {
-    ratingAmarone = ratingValue;
-
-    starsAmarone.forEach((starAmarone, index) => {
-        if (ratingAmarone > index) {
-            starAmarone.classList.add('filled');
-        } else {
-            starAmarone.classList.remove('filled');
-        }
-    });
-}
-
-
-var stars = document.querySelectorAll('.star');
-var rating = 0;
-function setRating(ratingValue) {
-    rating = ratingValue;
-
-    stars.forEach((star, index) => {
-        if (rating > index) {
-            star.classList.add('filled');
-        } else {
-            star.classList.remove('filled');
-        }
-    });
-}
-
-*/
-
-
-
 /*stars for restaurants*/
 
+//Pizza express
 /*get the stars by class name*/
-let stars = document.getElementsByClassName("star");
+
+let starsPizza = document.getElementsByClassName("starPizza");
 
 /*calls the function with the appropriate star number s n*/
 
-function gfg(n) {
+function pizzaStars(n) {
 
-/*removes previous rating*/
+    /*removes previous rating*/
     let i = 0;
     while (i < 5) {
-        stars[i].className = "star";
+        starsPizza[i].className = "starPizza";
         i++;
     }
     /*and for number of stars it will give them the appropriate colour*/
@@ -70,10 +22,64 @@ function gfg(n) {
         else if (n == 3) cls = "three";
         else if (n == 4) cls = "four";
         else if (n == 5) cls = "five";
-        stars[i].className = "star " + cls;
+        starsPizza[i].className = "starPizza " + cls;
     }
 
 }
+//Amarone
+let starsAmarone = document.getElementsByClassName("starAmarone");
+
+/*calls the function with the appropriate star number s n*/
+
+function amaroneStars(n) {
+
+    /*removes previous rating*/
+    let i = 0;
+    while (i < 5) {
+        starsAmarone[i].className = "starAmarone";
+        i++;
+    }
+    /*and for number of stars it will give them the appropriate colour*/
+    for (let i = 0; i < n; i++) {
+        if (n == 1) cls = "one";
+        else if (n == 2) cls = "two";
+        else if (n == 3) cls = "three";
+        else if (n == 4) cls = "four";
+        else if (n == 5) cls = "five";
+        starsAmarone[i].className = "starAmarone " + cls;
+    }
+
+}
+
+//Amarone
+let starsAndaluz = document.getElementsByClassName("starAndaluz");
+
+/*calls the function with the appropriate star number s n*/
+
+function anadluzStars(n) {
+
+    /*removes previous rating*/
+    let i = 0;
+    while (i < 5) {
+        starsAndaluz[i].className = "starAndaluz";
+        i++;
+    }
+    /*and for number of stars it will give them the appropriate colour*/
+    for (let i = 0; i < n; i++) {
+        if (n == 1) cls = "one";
+        else if (n == 2) cls = "two";
+        else if (n == 3) cls = "three";
+        else if (n == 4) cls = "four";
+        else if (n == 5) cls = "five";
+        starsAndaluz[i].className = "starAndaluz " + cls;
+    }
+
+}
+
+
+
+
+
 
 
 /*login logout*/

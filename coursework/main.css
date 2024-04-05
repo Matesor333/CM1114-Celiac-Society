@@ -237,7 +237,7 @@ Nav ul {
 /*Star rating*/
 
 
-.star {
+.starAndaluz, .starPizza, .starAmarone {
     font-size: 10vh;
     cursor: pointer;
 }
