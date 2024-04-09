@@ -25,3 +25,5 @@ https://www.geeksforgeeks.org/star-rating-using-html-css-and-javascript/
 https://www.youtube.com/watch?si=J1t5scrp1flbTEec&v=cb8NbWz5plg&feature=youtu.be
 
 https://www.embedgooglemap.net/
+
+https://www.geeksforgeeks.org/how-to-add-blur-effects-to-images-in-css/
