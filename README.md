@@ -1,30 +1,35 @@
 # CM1114-Celiac-Society
-Link
+Link:
 https://matesor333.github.io/CM1114-Celiac-Society/coursework/
-
+-----------------------------------------------
 References:
-
-For Header,Eat In Aberdeen page and Recepiecs page:  
+--------------------------------------------
+For Header,Eat In Aberdeen page and Recepiecs page:                                                    
 https://www.w3schools.com/howto/howto_css_two_columns.asp
 ----------------------------------------------------------------
-For Navbar And Footer:
-
+For Navbar And Footer and coursel in img gallery:                                                    
 https://getbootstrap.com/docs/5.3/examples/headers/
 https://getbootstrap.com/docs/5.3/examples/carousel/
 https://getbootstrap.com/docs/5.3/examples/buttons/
--------------------------------------------------------
-https://getbootstrap.com/docs/5.3/examples/grid/
-
 https://getbootstrap.com/docs/5.3/examples/footers/
-
 https://getbootstrap.com/docs/5.3/components/navbar/#nav
-
+-------------------------------------------------------
+For Grid in the Members page:                                                          
+https://getbootstrap.com/docs/5.3/examples/grid/
+https://getbootstrap.com/docs/5.3/examples/carousel/
+------------------------------------------------------------
+Accordian in the recepies page:                                          
 https://www.w3schools.com/howto/howto_js_accordion.asp
+----------------------------------------------------------------
 
+For Resturant star rating:                                                    
 https://www.geeksforgeeks.org/star-rating-using-html-css-and-javascript/
-
+-------------------------
+For getting elements by class name in img gallery:                                             
 https://www.youtube.com/watch?si=J1t5scrp1flbTEec&v=cb8NbWz5plg&feature=youtu.be
-
-https://www.embedgooglemap.net/
-
 https://www.geeksforgeeks.org/how-to-add-blur-effects-to-images-in-css/
+----------------------------------------------------------------
+Imbeding google maps:                     
+https://www.embedgooglemap.net/
+-------------------------------
+
