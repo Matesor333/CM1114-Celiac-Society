@@ -4,14 +4,14 @@ https://matesor333.github.io/CM1114-Celiac-Society/coursework/
 
 References:
 
+For Header,Eat In Aberdeen page and Recepiecs page:  
 https://www.w3schools.com/howto/howto_css_two_columns.asp
-
+----------------------------------------------------------------
+For Navbar And Footer:
 https://getbootstrap.com/docs/5.3/examples/headers/
-
 https://getbootstrap.com/docs/5.3/examples/carousel/
-
 https://getbootstrap.com/docs/5.3/examples/buttons/
-
+-------------------------------------------------------
 https://getbootstrap.com/docs/5.3/examples/grid/
 
 https://getbootstrap.com/docs/5.3/examples/footers/
