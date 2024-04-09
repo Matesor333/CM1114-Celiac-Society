@@ -1,5 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>RGU Celiac Society</title>
 </head>
 
@@ -7,7 +9,7 @@
 <header>
   <div class="contajnerHeader">
     <div class="logo">
-      <img src="IMG/Logo.jpg" alt="Logo"/>
+      <img src="IMG/Logo.jpg" alt="Logo">
     </div>
     <h1 class="Name">
       Robert Gordon University Celiac Society
@@ -34,9 +36,9 @@
 
 
     <form class="d-flex" role="search" name = "Account">
-      <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
-      <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
-      <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
+      <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" name="Email">
+      <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" name="Password">
+      <button class="btn btn-outline-success" type="button" onclick='login_logout()' >login</button>
 
 
 
@@ -72,43 +74,43 @@
     </tr>
 
     <tr>
-      <th>W1</th><td></td><td></td><td></td><td></td><td></td><td>Welcome back drinks! <br/> In-Person @ the Pub</td><td></td>
+      <th>W1</th><td></td><td></td><td></td><td></td><td></td><td>Welcome back drinks! <br> In-Person @ the Pub</td><td></td>
 
     </tr>
     <tr>
-      <th>W2</th><td></td><td></td><td>What to expect <br/> Online </td><td></td><td></td><td></td><td></td>
+      <th>W2</th> <td></td>  <td></td>  <td>What to expect <br> Online </td>  <td></td>  <td></td>  <td></td>  <td></td>
     </tr>
 
     <tr>
-      <th>W3</th><td></td><td><td> </td></td><td> </td><td></td><td>Lets test your celiac<br/>In-Person @ the Pub</td><td></td><td></td>
+      <th>W3</th> <td></td>  <td></td>  <td></td>  <td></td>  <td></td>  <td>Lets test your celiac<br>In-Person @ the Pub</td>  <td></td>
     </tr>
 
     <tr>
-      <th>W4</th><td>Shar event <br/> In-Person @ the Union</td><td></td><td></td><td></td><td></td><td></td><td></td>
+      <th>W4</th><td>Shar event <br> In-Person @ the Union</td><td></td><td></td><td></td><td></td><td></td><td></td>
     </tr>
 
     <tr>
-      <th>W5</th><td></td><td></td><td></td><td></td><td></td><td></td><td>Cooking Class <br/> In-Person @ Union </td>
+      <th>W5</th><td></td><td></td><td></td><td></td><td></td><td></td><td>Cooking Class <br> In-Person @ Union </td>
     </tr>
 
     <tr>
-      <th>W6</th><td></td><td></td><td> </td><td></td><td>DRINKS AGAIN  <br/> In-Person @ Union then city</td><td></td><td></td>
+      <th>W6</th><td></td><td></td><td> </td><td></td><td>DRINKS AGAIN  <br> In-Person @ Union then city</td><td></td><td></td>
     </tr>
 
     <tr>
-      <th>W7</th><td></td><td></td><td> </td><td>Event <br/> Online</td><td></td><td></td><td></td>
+      <th>W7</th><td></td><td></td><td> </td><td>Event <br> Online</td><td></td><td></td><td></td>
     </tr>
 
     <tr>
-      <th>W8</th><td></td><td></td><td></td><td> Any cahnges? <br/> Online </td><td></td><td></td><td></td>
+      <th>W8</th><td></td><td></td><td></td><td> Any cahnges? <br> Online </td><td></td><td></td><td></td>
     </tr>
 
     <tr>
-      <th>W9</th><td></td><td></td><td> </td><td></td><td></td><td>Last Drings<br/> In-person</td><td></td>
+      <th>W9</th><td></td><td></td><td> </td><td></td><td></td><td>Last Drings<br> In-person</td><td></td>
     </tr>
 
     <tr>
-      <th>W10</th><td></td><td>See you next semseter <br/> Online </td><td></td><td></td><td></td><td></td><td></td>
+      <th>W10</th><td></td><td>See you next semseter <br> Online </td><td></td><td></td><td></td><td></td><td></td>
     </tr>
 
 
@@ -120,14 +122,14 @@
     <fieldset>
       <div>
         <label for = "event_title"> Event:</label>
-        <input type = "text" name = "event_title" event_title = "event_title"/>
+        <input type = "text" name = "event_title"  id="event_title">
         <label for = "event_date"> Date:</label>
-        <input type = "date" name = "event_date" event_date = "event_date"/>
+        <input type = "date" name = "event_date" id="event_date">
       </div>
       <br>
       <label for = "event_details">Event Details: </label>
       <br>
-      <textarea name = "event_details" cols = "80" rows = "5"></textarea>
+      <textarea name = "event_details" cols = "80" rows = "5" id="event_details"></textarea>
       <br>
       <button type = "button" onclick ='submit_event()'>Submit Event</button>
     </fieldset>
@@ -158,7 +160,7 @@
     </div>
   <p>Copyright Matus Illith</p>
   <p>C 2024</p>
-  </form></p>
+  </form>
 
 </footer>
 

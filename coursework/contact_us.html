@@ -1,5 +1,8 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
     <title>RGU Celiac Society</title>
 </head>
 
@@ -7,7 +10,7 @@
 <header>
     <div class="contajner">
         <div class="logo">
-            <img src="IMG/Logo.jpg" alt="Logo"/>
+            <img src="IMG/Logo.jpg" alt="Logo">
         </div>
         <h1 class="Name">
             Robert Gordon University Celiac Society
@@ -35,9 +38,9 @@
         </ul>
 
         <form class="d-flex" role="search" name = "Account">
-            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
-            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
-            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
+            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" name="Email">
+            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" name="Password">
+            <button class="btn btn-outline-success" type="button" onclick='login_logout()'>login</button>
 
 
 
@@ -67,15 +70,16 @@
     <div class="contajner">
         <div class="form">
          <form>
-             <legend> Contact Us using the below form.</legend>
 
-             <br>
+
+
                 <fieldset>
-                    
+                    <legend> Contact Us using the below form.</legend>
+                    <br>
                 <label for="email">Email:</label>
-                <input type="email" name="email" value=""/><br>
+                <input type="email" name="email" value="" id="email"><br>
                 <label for="comments" >Comments:</label>
-                <textarea name="comments" cols="80" rows="5"></textarea>
+                <textarea name="comments" cols="80" rows="5" id="comments"></textarea>
                     <br>
                     <button id ="form_outcome" type="button" onclick='document.getElementById("form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
 
@@ -85,17 +89,18 @@
             <br>
 
             <form>
-                <legend>Join Us using the form below.</legend>
-                <br>
+
              <fieldset>
+                 <legend>Join Us using the form below.</legend>
+                 <br>
                  <label for="name">Name:</label>
-                 <input type="text" name="name" value=""/>
-                 <label for="email">Email:</label>
-                 <input type="email" name="email" value=""/>
+                 <input type="text" name="name" value="" id="name">
+                 <label for="emailJoin">Email:</label>
+                 <input type="email" name="email" value="" id="emailJoin">
                  <label for="School">School:</label>
-                 <input type="text" name="School" value=""/><br/>
-                 <label for="comments">Comments:</label>
-                 <textarea name="comments" cols="80" rows="5"></textarea>
+                 <input type="text" name="School" value="" id="School"><br>
+                 <label for="comments_Join">Comments:</label>
+                 <textarea name="comments_Join" cols="80" rows="5" id="comments_Join"></textarea>
                  <br>
 
                  <button id ="CU_form_outcome" type="button" onclick='document.getElementById("CU_form_outcome").innerHTML="Form has been sent successfully!"'>Submit</button>
@@ -130,7 +135,7 @@
         <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
         <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
     </div>
-</form></p>
+</form>
     <p>Copyright Matus Illith</p>
     <p>C 2024</p>
 
