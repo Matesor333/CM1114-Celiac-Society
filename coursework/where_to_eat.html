@@ -4,200 +4,214 @@
 </head>
 
 <body>
-<header>
-    <div class="contajnerHeader">
-        <div class="logo">
-            <img src="IMG/Logo.jpg" alt="Logo"/>
-        </div>
-        <h1 class="Name">
-            Robert Gordon University Celiac Society
-        </h1>
-    </div>
-    </div>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-
-    <link rel="stylesheet" href="main.css">
-</header>
-
-<nav class="navbar sticky-top bg-body-tertiary ">
-
-    <div class="container-fluid">
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link active" >Home</a></li>
-            <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
-            <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
-            <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
-            <li class="nav-item"><a href="recepies.html" class="nav-link">Recipes</a></li>
-            <li class="nav-item"><a href="img_gallery.html" class="nav-link">Gallery</a></li>
-            <li class="nav-item"><a href="where_to_eat.html" class="nav-link" aria-current="page">Eat In Aberdeen</a></li>
-
-        </ul>
-
-
-        <form class="d-flex" role="search" name = "Account">
-            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
-            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
-            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
-
-
-
-        </form>
-        <script src="hello.js">
-        </script>
-
-
-
-
-
-    </div>
-
-</nav>
-
-
-
-<main>
-
-    <hr>
-    <h2 class="Welcome">Where to Eat</h2>
-    <br>
-
-
-    <div class="row">
-        <div class="column">
-            <img class ="img" src="IMG/PizzaExpress.jpg" alt=" Photo of Pizza Express">
-
-        </div>
-        <div class="column">
-            <h2>Pizza Express Union Square/Street</h2>
-            <hr>
-            <p>Welcome to Pizza Express Gluten-Free Pizzeria!
-
-                We are proud to offer a wide range of delicious, high-quality pizzas that cater to those with gluten sensitivities or preferences. Our mission is to ensure that everyone can enjoy the classic pizza experience, regardless of dietary restrictions.</p>
-               <p> Our gluten-free pizzas are crafted with the same love and attention as all our dishes. We use a specially formulated gluten-free dough, topped with our signature tomato sauce and a variety of fresh, flavorful toppings. From classic Margherita to adventurous gourmet combinations, there is a pizza to satisfy every palate.
-                In addition to our pizzas, we also offer a selection of gluten-free salads, pastas, and desserts, so you can enjoy a complete meal that suits your dietary needs.</p>
-            <a href="https://www.facebook.com/pizzaexpress"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
-            <h3>Give Us Rating</h3>
-            <div>
-                <br />
-                <span onclick="pizzaStars(1)" class="starPizza" >&#9733;</span>
-                <span onclick="pizzaStars(2)" class="starPizza">&#9733;</span>
-                <span onclick="pizzaStars(3)" class="starPizza">&#9733;</span>
-                <span onclick="pizzaStars(4)" class="starPizza">&#9733;</span>
-                <span onclick="pizzaStars(5)" class="starPizza">&#9733;</span>
-
-                <script src="script.js"></script>
+    <header>
+        <!--Logo/Title-->
+        <div class="contajnerHeader">
+            <div class="logo">
+                <img src="IMG/Logo.jpg" alt="Logo"/>
             </div>
+            <h1 class="Name">
+                Robert Gordon University Celiac Society
+            </h1>
+        </div>
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="main.css">
+    </header>
+    <!--NavBAr-->
+    <nav class="navbar sticky-top bg-body-tertiary ">
+
+        <div class="container-fluid">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" >Home</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
+                <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
+                <li class="nav-item"><a href="recepies.html" class="nav-link">Recipes</a></li>
+                <li class="nav-item"><a href="img_gallery.html" class="nav-link">Gallery</a></li>
+                <li class="nav-item"><a href="where_to_eat.html" class="nav-link" aria-current="page">Eat In Aberdeen</a></li>
+
+            </ul>
+
+
+            <form class="d-flex" role="search" name = "Account">
+                <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+                <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+                <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
+
+
+
+            </form>
+            <script src="hello.js">
+            </script>
+
+
+
+
 
         </div>
-        <div class="column">
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Pizza expres Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
 
-        </div>
-    </div>
+    </nav>
 
 
-    <hr>
 
+    <main>
+        <!--Where to eat Section-->
+        <hr>
+        <h2 class="Welcome">Where to Eat</h2>
+        <br>
 
-    <div class="row">
-        <div class="column">
-            <img class ="img" src="IMG/Amarone%20Aberdeen.jpg" alt="photo of Amarone restaurant">
+        <!--Pizza express-->
+        <div class="row">
+            <!--IMG-->
+            <div class="column">
+                <img class ="img" src="IMG/PizzaExpress.jpg" alt=" Photo of Pizza Express">
 
-        </div>
-        <div class="column">
-            <h2>Amarone</h2>
-            <hr>
-            <p>Ciao!
-                Ready for a slice of cosmopolitan Italy? Vibrant with chatter, the clink of glasses and the shake-a-shake-a-shake of cocktails from the central cocktail bar, Amarone has all the buzz of a restaurant in central Milan.</p>
-                <p>If you can resist the temptation of crisp pizza straight from the central oven, freshly made pastas filled with classic Italian combinations might turn your head. Need some more time to decide? Dunk warm homemade focaccia in rich beef ragu and take your time making your mind up.</p>
-            <a href="https://www.facebook.com/amaronerestaurants/"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
-            <h3>Give Us Rating</h3>
-            <div>
-                <br />
-                <span onclick="amaroneStars(1)" class="starAmarone">&#9733;</span>
-                <span onclick="amaroneStars(2)" class="starAmarone">&#9733;</span>
-                <span onclick="amaroneStars(3)" class="starAmarone">&#9733;</span>
-                <span onclick="amaroneStars(4)" class="starAmarone">&#9733;</span>
-                <span onclick="amaroneStars(5)" class="starAmarone">&#9733;</span>
-
-                <script src="script.js"></script>
             </div>
+            <div class="column">
+                <!--name-->
+                <h2>Pizza Express Union Square/Street</h2>
+                <hr>
+                <!--description-->
+                <p>Welcome to Pizza Express Gluten-Free Pizzeria!
 
+                    We are proud to offer a wide range of delicious, high-quality pizzas that cater to those with gluten sensitivities or preferences. Our mission is to ensure that everyone can enjoy the classic pizza experience, regardless of dietary restrictions.</p>
+                <p> Our gluten-free pizzas are crafted with the same love and attention as all our dishes. We use a specially formulated gluten-free dough, topped with our signature tomato sauce and a variety of fresh, flavorful toppings. From classic Margherita to adventurous gourmet combinations, there is a pizza to satisfy every palate.
+                    In addition to our pizzas, we also offer a selection of gluten-free salads, pastas, and desserts, so you can enjoy a complete meal that suits your dietary needs.</p>
+                <a href="https://www.facebook.com/pizzaexpress"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
+                <!--Rating-->
+                <h3>Give Us Rating</h3>
+                <div>
+                    <br />
+                    <span onclick="pizzaStars(1)" class="starPizza" >&#9733;</span>
+                    <span onclick="pizzaStars(2)" class="starPizza">&#9733;</span>
+                    <span onclick="pizzaStars(3)" class="starPizza">&#9733;</span>
+                    <span onclick="pizzaStars(4)" class="starPizza">&#9733;</span>
+                    <span onclick="pizzaStars(5)" class="starPizza">&#9733;</span>
 
-        </div>
-        <div class="column">
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Amarone Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
-        </div>
-    </div>
+                    <script src="script.js"></script>
+                </div>
 
-
-
-
-    <hr>
-
-
-    <div class="row">
-        <div class="column">
-            <img class ="img" src="IMG/Anadaluz.jpeg" alt=" Photo of Anadaluz">
-
-        </div>
-        <div class="column">
-            <h2>Cafe Andaluz</h2>
-            <hr>
-            <p>Hola, Amigos! Welcome to Cafe Andaluz, the little slice of Spain nestled in the heart of Aberdeen at 5 Bon-Accord Street. We&apos;ve been dishing out sunshine and smiles since 2002, and we&apos;re not stopping anytime soon!</p>
-            <p> We&apos;re open from 12:00 to 22:00 or 22:30, depending on the day. That&apos;s right, we&apos;re here for you longer than your last holiday romance!</p>
-            <p>Now, let&apos;s talk about gluten. We understand that dietary requirements can be a challenge, which is why we&apos;ve created a gluten-free menu that doesn&apos;t compromise on taste. From gluten-free beer to dessert and even paella, we&apos;ve got you covered. However, please note that we&apos;re not a dedicated gluten-free facility, so if you have any concerns, don&apos;t hesitate to get in touch.</p>
-            <a href="https://www.facebook.com/cafeandaluzdrg/reviews"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
-            <h3>Give Us Rating</h3>
-            <div>
-                <br />
-                <span onclick="anadluzStars(1)" class="starAndaluz">&#9733;</span>
-                <span onclick="anadluzStars(2)" class="starAndaluz">&#9733;</span>
-                <span onclick="anadluzStars(3)" class="starAndaluz">&#9733;</span>
-                <span onclick="anadluzStars(4)" class="starAndaluz">&#9733;</span>
-                <span onclick="anadluzStars(5)" class="starAndaluz">&#9733;</span>
-
-                <script src="script.js"></script>
             </div>
+            <!--Google Maps-->
+            <div class="column">
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Pizza expres Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
 
-
+            </div>
         </div>
-        <div class="column">
-            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Cafe Andaluz Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
+
+
+        <hr>
+
+    <!--Amarone-->
+        <div class="row">
+            <div class="column">
+                <img class ="img" src="IMG/Amarone%20Aberdeen.jpg" alt="photo of Amarone restaurant">
+
+            </div>
+            <div class="column">
+                <!--Name-->
+                <h2>Amarone</h2>
+                <hr>
+                <!--description-->
+                <p>Ciao!
+                    Ready for a slice of cosmopolitan Italy? Vibrant with chatter, the clink of glasses and the shake-a-shake-a-shake of cocktails from the central cocktail bar, Amarone has all the buzz of a restaurant in central Milan.</p>
+                    <p>If you can resist the temptation of crisp pizza straight from the central oven, freshly made pastas filled with classic Italian combinations might turn your head. Need some more time to decide? Dunk warm homemade focaccia in rich beef ragu and take your time making your mind up.</p>
+                <a href="https://www.facebook.com/amaronerestaurants/"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
+                <!--Rating-->
+                <h3>Give Us Rating</h3>
+                <div>
+                    <br>
+                    <span onclick="amaroneStars(1)" class="starAmarone">&#9733;</span>
+                    <span onclick="amaroneStars(2)" class="starAmarone">&#9733;</span>
+                    <span onclick="amaroneStars(3)" class="starAmarone">&#9733;</span>
+                    <span onclick="amaroneStars(4)" class="starAmarone">&#9733;</span>
+                    <span onclick="amaroneStars(5)" class="starAmarone">&#9733;</span>
+
+                    <script src="script.js"></script>
+                </div>
+
+
+            </div>
+            <!--Google Maps-->
+            <div class="column">
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Amarone Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
+            </div>
         </div>
-    </div>
-
-
-    <hr>
-    <br>
-    <script src="hello.js"> </script>
-</main>
 
 
 
-<aside>
+
+        <hr>
+
+        <!--Anadaluz-->
+        <div class="row">
+            <div class="column">
+                <img class ="img" src="IMG/Anadaluz.jpeg" alt=" Photo of Anadaluz">
+
+            </div>
+            <div class="column">
+                <!--Name-->
+                <h2>Cafe Andaluz</h2>
+                <hr>
+                <!--description-->
+                <p>Hola, Amigos! Welcome to Cafe Andaluz, the little slice of Spain nestled in the heart of Aberdeen at 5 Bon-Accord Street. We&apos;ve been dishing out sunshine and smiles since 2002, and we&apos;re not stopping anytime soon!</p>
+                <p> We&apos;re open from 12:00 to 22:00 or 22:30, depending on the day. That&apos;s right, we&apos;re here for you longer than your last holiday romance!</p>
+                <p>Now, let&apos;s talk about gluten. We understand that dietary requirements can be a challenge, which is why we&apos;ve created a gluten-free menu that doesn&apos;t compromise on taste. From gluten-free beer to dessert and even paella, we&apos;ve got you covered. However, please note that we&apos;re not a dedicated gluten-free facility, so if you have any concerns, don&apos;t hesitate to get in touch.</p>
+                <a href="https://www.facebook.com/cafeandaluzdrg/reviews"><img src="IMG/download.jpeg" class="" alt="facebook"></a>
+                <!--Rating-->
+                <h3>Give Us Rating</h3>
+                <div>
+                    <br />
+                    <span onclick="anadluzStars(1)" class="starAndaluz">&#9733;</span>
+                    <span onclick="anadluzStars(2)" class="starAndaluz">&#9733;</span>
+                    <span onclick="anadluzStars(3)" class="starAndaluz">&#9733;</span>
+                    <span onclick="anadluzStars(4)" class="starAndaluz">&#9733;</span>
+                    <span onclick="anadluzStars(5)" class="starAndaluz">&#9733;</span>
+
+                    <script src="script.js"></script>
+                </div>
 
 
-</aside>
+            </div>
+            <!--Google Maps-->
+            <div class="column">
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" src="https://maps.google.com/maps?width=500&amp;height=500&amp;hl=en&amp;q=Cafe Andaluz Aberdeen&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">google map embed html</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:500px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:500px;}.gmap_iframe {height:500px!important;}</style></div>
+            </div>
+        </div>
 
 
-<footer>
-    <h4 class ="bottom_Contact"> <a href="contact_us.html">Contact Us</a></h4>
-    <p> <form>
-    <h5>Subscribe to our newsletter</h5>
-    <p>Monthly digest of what's new and exciting from us.</p>
-    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-        <label for="newsletter1" class="visually-hidden">Email address</label>
-        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-        <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
-    </div>
-    <p>Copyright Matus Illith</p>
-    <p>C 2024</p>
-</form>
+        <hr>
+        <br>
+        <script src="hello.js"> </script>
+    </main>
 
-</footer>
+
+
+    <aside>
+
+
+    </aside>
+
+
+    <footer>
+        <h4 class ="bottom_Contact"> <a href="contact_us.html">Contact Us</a></h4>
+        <p> <form>
+        <h5>Subscribe to our newsletter</h5>
+        <p>Monthly digest of what's new and exciting from us.</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-primary" type="submit" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
+        </div>
+        <p>Copyright Matus Illith</p>
+        <p>C 2024</p>
+    </form>
+
+    </footer>
 
 
 </body>

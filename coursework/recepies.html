@@ -4,537 +4,502 @@
 </head>
 
 <body>
-<header>
-    <div class="contajnerHeader">
-        <div class="logo">
-            <img src="IMG/Logo.jpg" alt="Logo"/>
+    <header>
+        <!--Logo/Title-->
+        <div class="contajnerHeader">
+            <div class="logo">
+                <img src="IMG/Logo.jpg" alt="Logo"/>
+            </div>
+            <h1 class="Name">
+                Robert Gordon University Celiac Society
+            </h1>
         </div>
-        <h1 class="Name">
-            Robert Gordon University Celiac Society
-        </h1>
-    </div>
-    </div>
+        </div>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="main.css">
-</header>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="main.css">
+    </header>
+    <!--NavBAr-->
+    <nav class="navbar sticky-top bg-body-tertiary ">
 
-<nav class="navbar sticky-top bg-body-tertiary ">
+        <div class="container-fluid">
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="index.html" class="nav-link active" >Home</a></li>
+                <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
+                <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
+                <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
+                <li class="nav-item"><a href="recepies.html" class="nav-link">Recipes</a></li>
+                <li class="nav-item"><a href="img_gallery.html" class="nav-link" aria-current="page" >Gallery</a></li>
+                <li class="nav-item"><a href="where_to_eat.html" class="nav-link">Eat In Aberdeen</a></li>
 
-    <div class="container-fluid">
-        <ul class="nav nav-pills">
-            <li class="nav-item"><a href="index.html" class="nav-link active" >Home</a></li>
-            <li class="nav-item"><a href="contact_us.html" class="nav-link">Contact Us</a></li>
-            <li class="nav-item"><a href="current_members.html" class="nav-link">Members</a></li>
-            <li class="nav-item"><a href="event_calendar.html" class="nav-link">Event Calendar</a></li>
-            <li class="nav-item"><a href="recepies.html" class="nav-link">Recipes</a></li>
-            <li class="nav-item"><a href="img_gallery.html" class="nav-link" aria-current="page" >Gallery</a></li>
-            <li class="nav-item"><a href="where_to_eat.html" class="nav-link">Eat In Aberdeen</a></li>
-
-        </ul>
+            </ul>
 
 
-        <form class="d-flex" role="search" name = "Account">
-            <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
-            <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
-            <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
+            <form class="d-flex" role="search" name = "Account">
+                <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
+                <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
+                <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
 
 
 
-        </form>
-        <script src="hello.js">
+            </form>
+            <script src="hello.js">
+            </script>
+        </div>
+    </nav>
+
+
+
+    <main>
+        <hr>
+        <h2 class="Welcome">Gluten Free Recipes</h2>
+        <br>
+    <!--Breakfast according-->
+        <button class="accordion">
+            <h2 class="acc">Breakfast</h2>
+        </button>
+    <!--section tortilla-->
+        <div class="panel">
+            <br>
+            <div class="row">
+
+                <div class="column">
+                    <img class="img" src="IMG/Tortilla-de-Patatas.jpg" alt="Tortilla-de-Patatas Photo">
+                </div>
+                <div class="column">
+                    <h2>Tortilla De Patatas</h2>
+                    <hr>
+                    <h3>Step 1</h3>
+                    <p>Heat oil in large non-stick skillet over medium heat. Add onion; cook, stirring frequently, for about 3 minutes. Add potatoes; cook, stirring occasionally, until tender and golden, about 8 minutes. Season with salt.</p>
+                    <h3>Step 2</h3>
+                    <p>Whisk eggs in large bowl. Stir in onion/potato mixture, red pepper and parsley, if using. Pour egg mixture into skillet over medium heat; cook for 1 minute. Reduce heat to low; cook until eggs are set in centre and lightly browned on bottom. Slide omelette onto large flat plate. Place another plate on top; flip to invert omelette.</p>
+                    <h3>Step 3</h3>
+                    <p>Slide omelette back into skillet; cook for 2 to 3 minutes longer.</p>
+                </div>
+                <div class="column">
+                    <h2>Ingredients</h2>
+                    <p>2 tbsp olive oil</p>
+                    <p>3/4 chopped onion</p>
+                    <p>4 cups peeled and cubed Yukon Gold potatoes</p>
+                    <p>1/2 tsp salt</p>
+                    <p>6 eggs</p>
+                    <p>finely chopped sweet red pepper</p>
+                    <p>finely chopped parsley</p>
+                </div>
+            </div>
+
+            <!--Section Omelet-->
+            <hr class="lineMeals">
+            <div class="row">
+                <div class="column">
+                    <img class="img" src="IMG/omelet.jpg" alt="Omelet Photo">
+
+                </div>
+                <div class="column">
+                    <h2>Omelet</h2>
+                    <hr>
+                    <h3>STEP 1</h3>
+                    <p>Heat the grill. Melt a knob of butter in a small non-stick frying pan, add the mushrooms, season and cook until soft and golden. Add the garlic halfway through cooking the mushrooms so it doesn&apos;t burn.</p>
+                    <h3>Step 2</h3>
+                    <p>Scrape the mushrooms out of the pan and add another knob of butter. Pour in the eggs and let the bottom set a little, then draw in the sides and let the uncooked egg flow into the gaps. Once the egg is almost set, scatter over the mushrooms and lay the taleggio slices on top. Flash under the hot grill to just set the top and start to melt the cheese. Remove and top with the rocket just before serving.</p>
+                </div>
+                <div class="column">
+                    <h2>Ingredients</h2>
+                    <p>butter, for frying</p>
+                    <p>150g chestnut mushrooms, sliced</p>
+                    <p>1/2 clove garlic, crushed</p>
+                    <p>2 eggs, beaten and seasoned</p>
+                    <p>50g taleggio, sliced</p>
+                    <p>a handful rocket, lightly dressed, to serve</p>
+                </div>
+            </div>
+            <hr class="lineMeals">
+            <!--Section Hash-->
+            <div class="row">
+                <div class="column">
+                    <img class="img" src="IMG/hashbrown.jpg" alt="Hash Brown Photo">
+                </div>
+                <div class="column">
+                    <h2>Hash Brown With Fried Eggs</h2>
+                    <hr>
+                    <h3>Step 1</h3>
+                    <p>Put the potatoes whole into a large pan and fill with cold water. Bring to a simmer, then cook for 8 minutes or until starting to soften round the edges. Drain really well, allow to cool, then coarsely grate the potatoes into a bowl.</p>
+                    <h3>Step 2</h3>
+                    <p>Meanwhile, put the bacon into a pan and cook gently over a low heat until really crisp.</p>
+                    <h3>Step 3</h3>
+                    <p>Tip the bacon and any fat plus the spring onions and cheddar into the bowl of grated potato, add lots of seasoning and mix well.</p>
+                    <h3>Step 4</h3>
+                    <p>Heat 1 tbsp of vegetable oil in a 22cm non-stick frying pan and cook 1/2 the mix, squashing it down with a spatula into a patty. Cook for 5 minutes or until crisp, then flip and repeat. Keep warm in a low oven while you fry the other one, then keep both warm in a low oven.</p>
+                    <h3>Step 5</h3>
+                    <p>Fry the eggs to your liking, then cut the hash browns in 1/2 and serve each with an egg and brown sauce, if you like.</p>
+                </div>
+                <div class="column">
+                    <h2>Ingredients</h2>
+                    <p>500g King Edward potatoes, peeled</p>
+                    <p>6 rashers streaky bacon, finely chopped</p>
+                    <p>2 spring onions, sliced</p>
+                    <p>100g cheddar, grated</p>
+                    <p>2 tbsp vegetable oil</p>
+                    <p>4 eggs</p>
+                    <p>to serve brown sauce</p>
+                </div>
+            </div>
+        </div>
+        <!--Lunch-->
+        <button class="accordion"><h2 class="acc">Lunch</h2></button>
+            <div class="panel">
+                <br>
+                <!--Section Pasta-->
+                <div class="row">
+
+                    <div class="column">
+                        <img class="img" src="IMG/pinterest-fresh-pasta.jpg" alt="Pasta Photo">
+
+                    </div>
+                    <div class="column">
+                        <h2>Home Made Pasta</h2>
+                        <hr>
+                        <h3>Step 1</h3>
+                        <p>In the bowl of a food processor fitted with the steel blade, or a large bowl, place the flour, xanthan gum, Expandex (or tapioca starch/flour), salt, olive oil, eggs and egg yolks, and pulse until combined.</p>
+                        <h3>Step 2</h3>
+                        <p>With the food processor on, remove the hopper and add more water very slowly until the dough clumps to one side of the food processor.</p>
+                        <h3>Step 3</h3>
+                        <p>n a bowl, add water about 1 teaspoonful at a time, mixing constantly until the dough holds together well. If the dough feels stiff, add more water until pliable.</p>
+                        <h3>Step 4</h3>
+                        <p>Knead the dough until smooth and roll into a rectangle. Divide the dough in half, and roll each half into a rectangle about 1/4-inch thick.</p>
+                        <h3>Step 5</h3>
+                        <p>Bring a large pot of salted water to a rolling boil. Place the fresh pasta in the water and cook, stirring to prevent the dough from clumping, for about 2 minutes or until it reaches an al-dente texture.</p>
+                    </div>
+                    <div class="column">
+                        <h2>Ingredients</h2>
+                        <p>2 cups all purpose GF Flour</p>
+                        <p>1 Teaspoon xanthan gum</p>
+                        <p>5 tablespoons (45 g) Expandex modified tapioca starch</p>
+                        <p>1/2 teaspoon kosher salt</p>
+                        <p>2 (100 g (weighed out of shell)) eggs</p>
+                        <p>2 (50 g) egg yolks </p>
+                        <p>1 tablespoon (14 g) extra virgin olive oil</p>
+                    </div>
+                </div>
+
+                <hr class="lineMeals">
+                <!--Section Pizza-->
+                <div class="row">
+
+                    <div class="column">
+                        <img class="img" src="IMG/The-Best-Gluten-Free-Pizza-Recipe.jpg" alt="Pizza Photo">
+
+                    </div>
+                    <div class="column">
+                        <h2>Pizza</h2>
+                        <hr>
+                        <h3>Step 1</h3>
+                        <p>In a small bowl, combine yeast and 3/4 cup (180 ml) warm water – about 110 degrees F (43 C). Too hot and it will kill the yeast! Let set for 5 minutes to activate. Sprinkle in 1 Tbsp (12 g) of the sugar a few minutes in.</p>
+                        <h3>Step 2</h3>
+                        <p>In a separate bowl, combine gluten free flour blend, salt, baking powder and remaining 1-2 Tbsp (12-25 g) sugar depending on preferred sweetness. Whisk until well combined.</p>
+                        <h3>Step 3</h3>
+                        <p>Make a well in the dry mixture and add the yeast mixture. Add the olive oil and additional 1/2 cup (120 ml) warm water before stirring. Then stir it all together until well combined, using a wooden spoon Make a well in the dry mixture and add the yeast mixture. Add the olive oil and additional 1/2 cup (120 ml) warm water before stirring. Then stir it all together until well combined, using a wooden spoon </p>
+                        <h3>Step 4</h3>
+                        <p> Using your hands and a little brown rice flour if it gets too sticky, work from the middle and push to spread/flatten the dough out to the edge. You want it to be pretty thin – less than 1/4 inch.</p>
+                        <h3>Step 5</h3>
+                        <p>Put the pizza in the oven to pre-bake for roughly 20-25 minutes, or until it begins to look dry. Cracks may appear, but that's normal and totally OK.</p>
+                        <h3>Step 6</h3>
+                        <p>Remove from oven and spread generously with your favorite pizza sauce, cheese and desired toppings. We went with Daiya to keep ours dairy-free. Pop back in oven for another 15-25 minutes (depending on toppings), or until the crust edge looks golden brown and the toppings are warm and bubbly.</p>
+                    </div>
+                    <div class="column">
+                        <h2>Ingredients</h2>
+                        <p>1Tbsp dry active yeast</p>
+                        <p>1 1/4 cup warm water</p>
+                        <p>2-3Tbsp sugar</p>
+                        <p>3 cups gluten-free flour blend</p>
+                        <p>1tsp salt</p>
+                        <p>1/2 tsp baking powder </p>
+                        <p>1 Tbsp olive oil</p>
+
+                    </div>
+                </div>
+                <hr class="lineMeals">
+                <!--Section Paella-->
+                <div class="row">
+
+                    <div class="column">
+                        <img class="img" src="IMG/Paella-7.jpg" alt="Paella Photo">
+
+                    </div>
+                    <div class="column">
+                        <h2>Paella</h2>
+                        <hr>
+                        <h3>Step 1</h3>
+                        <p>Add olive oil to a skillet over medium heat. Add the onion, bell peppers and garlic and cook until onion is translucent. Add chopped tomato, bay leaf, paprika, saffron salt and pepper. Stir and cook for 5 minutes. Add white wine and cook for 10 minutes. Taste and add salt if needed.</p>
+                        <h3>Step 2</h3>
+                        <p>Add chicken pieces, 2 tablespoons chopped parsley and rice to the pot. Cook for 1 minute.</p>
+                        <h3>Step 3</h3>
+                        <p>Pour the broth slowly all around the pan and jiggle the pan to get the rice into an even layer. (Do not stir the mixture going forward!).</p>
+                        <h3>Step 4</h3>
+                        <p>Bring mixture to a boil. Reduce heat to medium low. Give the pan a gentle shake back and forth just once or twice during cooking. </p>
+                        <h3>Step 5</h3>
+                        <p>Cook for about 15-18 minutes (uncovered), then nestle the shrimp, mussels and calamari into the mixture, sprinkle peas on top and continue to cook (without stirring) for about 5 more minutes. Watch for most of the liquid to be absorbed and the rice at the top nearly tender. (If for some reason your rice is still not cooked, add ¼ cup more water or broth and continue cooking).</p>
+                        <h3>Step 6</h3>
+                        <p>Remove pan from heat and cover pan with a lid or tinfoil. Place a kitchen towel over the lid and allow to rest for 10 minutes.</p>
+                    </div>
+                    <div class="column">
+                        <h2>Ingredients</h2>
+                        <p>1 Onion , diced</p>
+                        <p>1 bell pepper , diced</p>
+                        <p>4 cloves Garlic</p>
+                        <p>3 roma tomatoes ,</p>
+                        <p>1 teaspoon paprika</p>
+                        <p>1 pinch saffron threads</p>
+                        <p>1/4 cup white wine</p>
+                        <p>4 boneless , skinless chicken thighs , cut into pieces</p>
+                        <p>1/4 cup fresh chopped parsley chopped, divided</p>
+                        <p>2 cups Spanish Rice</p>
+                        <p>5 cups Chicken Broth</p>
+                        <p>1/2 cup frozen peas</p>
+                        <p>1/2lb Jumbo Shrimp</p>
+                        <p>1/2lb Mussels</p>
+                        <p>8oz calamari rings</p>
+                    </div>
+                </div>
+
+
+            </div>
+        <!--Dinner-->
+        <button class="accordion">
+            <h2 class="acc">Dinner</h2>
+        </button>
+            <div class="panel">
+                <br>
+                <!--Section Pancakes-->
+                <div class="row">
+                    <div class="column">
+                        <img class ="img" src="IMG/hbgf.jpg" alt="Photo of Banna Pancakes">
+                    </div>
+                    <div class="column">
+
+                        <h2>Banana pancakes</h2>
+                        <hr>
+                        <h3>STEP 1</h3>
+                        <p>Mix the banana, eggs and peanut butter in a small blender, and whizz until smooth.</p>
+
+                        <h3>STEP 2</h3>
+                        <p>Heat a spray of oil in a non-stick pan over a medium heat and drop spoonfuls of the batter into the pan.</p>
+
+                        <h3>STEP 3</h3>
+                        <p>Cook for a few minutes before flipping. These take longer to cook than a flour batter – and flip them confidently, as they won&apos;t set on top like regular pancakes.</p>
+
+                        <h3>STEP 4</h3>
+                        <p>Fry on the other side until golden and set. Serve with chopped banana and a drizzle of maple syrup, if you like.</p>
+                    </div>
+
+                    <div class="column">
+                        <br>
+                        <h2>Ingredients</h2>
+                        <p>1 ripe banana, mashed</p>
+                        <p> 2 eggs, beaten</p>
+                        <p>1 tbsp  peanut butter</p>
+                        <p>spray olive oil</p>
+                        <p>maple syrup (optional)</p>
+                    </div>
+                </div>
+                <hr class="lineMeals">
+                <!--Section SirLion-->
+                <div class="row">
+
+
+
+                    <div class="column">
+                        <img class ="img" src="IMG/Loin.jpg" alt="SirLion photo">
+                    </div>
+                    <div class="column">
+                        <h2>Loin</h2>
+                        <hr>
+                        <h3>STEP 1</h3>
+                        <p>Rub steak with Cajun seasoning; let stand for 5 minutes</p>
+                        <h3>STEP 2</h3>
+                        <p>In a large skillet, cook steak in oil over medium-high heat for 7-10 minutes on each side or until meat reaches desired doneness (for medium-rare, a thermometer should read 135°; medium, 140°; medium-well, 145°). Remove and keep warm.</p>
+                        <h3>STEP 3</h3>
+                        <p>In the same skillet, saute mushrooms and leek in butter until tender. Add garlic; cook 1 minute longer. Add the wine, pepper and salt, stirring to loosen browned bits from pan. Bring to a boil; cook until liquid is reduced by half. Slice steak; serve with mushroom sauce.</p>
+                    </div>
+
+                    <div class="column">
+                        <br>
+                        <h2>Ingredients</h2>
+                        <p>1 beef top sirloin steak</p>
+                        <p>2 tablespoons Cajun seasoning</p>
+                        <p>2 tablespoons olive oil</p>
+                        <p>1/2 pound sliced assorted fresh mushrooms</p>
+                        <p>1 medium leek </p>
+                        <p>1 tablespoon butter</p>
+                        <p>1 teaspoon minced garlic</p>
+                        <p>-1/2 cups dry red wine or reduced-sodium beef broth</p>
+                        <p>1/4 teaspoon pepper</p>
+                        <p>1/8 teaspoon salt</p>
+                    </div>
+                </div>
+            </div>
+        <!--Snack-->
+        <button class="accordion">
+            <h2 class="acc">Snack</h2>
+        </button>
+
+        <div class="panel">
+            <br>
+            <!--Section Skewers-->
+            <div class="row">
+
+
+                <div class="column">
+                    <img class ="img" src="IMG/skewers.jpeg" alt="Photo of skewers">
+                </div>
+                <div class="column">
+
+                    <h2>Antipasto Skewers</h2>
+                    <hr>
+                    <h3>Step 1</h3>
+                    <p>On 12 wooden 6-in. skewers, alternately thread tomatoes, mozzarella, folded salami slices and olives. Refrigerate until serving. If desired, drizzle skewers with vinaigrette to serve.</p>
+
+                </div>
+
+                <div class="column">
+                    <br>
+                    <h2>Ingredients</h2>
+                    <p>24 grape tomatoes (about 1 pint)</p>
+                    <p> carton (8 ounces) cherry-size fresh mozzarella cheese</p>
+                    <p>12 thin slices hard salami (about 1/4 pound)</p>
+                    <p>12 pimiento-stuffed Queen olives</p>
+                    <p>Italian vinaigrette, optional</p>
+                </div>
+            </div>
+
+            <hr class="lineMeals">
+            <!--Section Energy balls-->
+            <div class="row">
+
+                <div class="column">
+                    <img class ="img" src="IMG/Chocolate-Date-Energy-Balls_EXPS_RC20_255035_B09_09_1b.jpg" alt="Chocolate Energy balls photo">
+                </div>
+                <div class="column">
+
+                    <h2>Chocolate Date Energy Balls</h2>
+                    <hr>
+                    <h3>Step 1</h3>
+                    <p>Place dates, chocolate and cherries in a food processor; process until finely chopped, about 1 minute. Add nuts, coconut and sunflower kernels; process until blended. Add oil and vanilla; process until mixture comes together. Roll into 12 balls. Refrigerate, covered, at least 30 minutes before serving. Store in an airtight container in the refrigerator.</p>
+
+                </div>
+
+                <div class="column">
+                    <br>
+                    <h2>Ingredients</h2>
+                    <p>1-1/4 cups pitted medjool dates, roughly chopped</p>
+                    <p>3 ounces 60% bittersweet chocolate, coarsely chopped</p>
+                    <p>1/4 cup dried unsweetened tart cherries, chopped</p>
+                    <p>1/4 cup deluxe mixed nuts, coarsely chopped</p>
+                    <p>3 tablespoons unsweetened coconut flakes</p>
+                </div>
+
+                <hr class="lineMeals">
+            </div>
+            <!--Section Bread-->
+                <div class="row">
+
+
+
+                    <div class="column">
+                        <img class ="img" src="IMG/Gluten-and-Dairy-Free-Cinnamon-Raisin-Bread_EXPS_FT19_227132_F_0723_1-20.jpg" alt="Photo of Cinnamon bread">
+                    </div>
+                    <div class="column">
+
+                        <h2>Gluten- and Dairy-Free Cinnamon Raisin Bread</h2>
+                        <hr>
+                        <h3>Step 1</h3>
+                        <p>Preheat oven to 350°. In a large bowl, whisk flour, 3/4 cup sugar, baking powder, baking soda and salt. In another bowl, whisk eggs, coconut milk, oil and vanilla until blended. Add to flour mixture; stir just until moistened. Toss the raisins with remaining flour; fold into batter.</p>
+                        <h3>Step 2</h3>
+                        <p>Transfer half of the batter to a greased 9x5-in. loaf pan. Combine the cinnamon and remaining sugar. Sprinkle half over batter. Repeat layers. Cut through batter with a knife to swirl.</p>
+                        <h3>Step 3</h3>
+                        <p>Bake until a toothpick inserted in center comes out clean, 45-50 minutes. Cool in pans 10 minutes before removing to a wire rack to cool completely. If desired, serve with dairy-free margarine.</p>
+                    </div>
+
+                    <div class="column">
+                        <br>
+                        <h2>Ingredients</h2>
+                        <p>2 cups plus 1 tablespoon gluten-free all-purpose baking flour </p>
+                        <p>1 cup sugar, divided</p>
+                        <p>1-1/2 teaspoons baking powder</p>
+                        <p>1/2 teaspoon baking soda</p>
+                        <p>1/4 teaspoon salt</p>
+                        <p>2 large eggs</p>
+                        <p>1 cup coconut milk</p>
+                        <p>1 teaspoon vanilla extract</p>
+
+                    </div>
+               </div>
+
+
+
+        </div>
+        <!--Script For Accordion-->
+
+        <script>var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+
+                this.classList.toggle("active");
+
+
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
         </script>
-    </div>
 
-
-
-
-
-
-
-
-</nav>
-
-
-
-<main>
-    <hr>
-    <h2 class="Welcome">Gluten Free Recipes</h2>
-    <br>
-
-    <button class="accordion">
-        <h2 class="acc">Breakfast</h2></button>
-
-    <div class="panel">
         <br>
-        <div class="row">
+      <hr>
+<!--Video-->
+        <div class="video">
 
-            <div class="column">
-                <img class="img" src="IMG/Tortilla-de-Patatas.jpg" alt="Tortilla-de-Patatas Photo">
-
-            </div>
-            <div class="column">
-                <h2>Tortilla De Patatas</h2>
-                <hr>
-                <h3>Step 1</h3>
-                <p>Heat oil in large non-stick skillet over medium heat. Add onion; cook, stirring frequently, for about 3 minutes. Add potatoes; cook, stirring occasionally, until tender and golden, about 8 minutes. Season with salt.</p>
-                <h3>Step 2</h3>
-                <p>Whisk eggs in large bowl. Stir in onion/potato mixture, red pepper and parsley, if using. Pour egg mixture into skillet over medium heat; cook for 1 minute. Reduce heat to low; cook until eggs are set in centre and lightly browned on bottom. Slide omelette onto large flat plate. Place another plate on top; flip to invert omelette.</p>
-                <h3>Step 3</h3>
-                <p>Slide omelette back into skillet; cook for 2 to 3 minutes longer.</p>
-
-
-            </div>
-            <div class="column">
-                <h2>Ingredients</h2>
-                <p>2 tbsp olive oil</p>
-                <p>3/4 chopped onion</p>
-                <p>4 cups peeled and cubed Yukon Gold potatoes</p>
-                <p>1/2 tsp salt</p>
-                <p>6 eggs</p>
-                <p>finely chopped sweet red pepper</p>
-                <p>finely chopped parsley</p>
-
-
-            </div>
-        </div>
-
-
-        <hr class="lineMeals">
-        <div class="row">
-            <div class="column">
-                <img class="img" src="IMG/omelet.jpg" alt="Omelet Photo">
-
-            </div>
-            <div class="column">
-                <h2>Omelet</h2>
-                <hr>
-                <h3>STEP 1</h3>
-                <p>Heat the grill. Melt a knob of butter in a small non-stick frying pan, add the mushrooms, season and cook until soft and golden. Add the garlic halfway through cooking the mushrooms so it doesn&apos;t burn.</p>
-                <h3>Step 2</h3>
-                <p>Scrape the mushrooms out of the pan and add another knob of butter. Pour in the eggs and let the bottom set a little, then draw in the sides and let the uncooked egg flow into the gaps. Once the egg is almost set, scatter over the mushrooms and lay the taleggio slices on top. Flash under the hot grill to just set the top and start to melt the cheese. Remove and top with the rocket just before serving.</p>
-
-            </div>
-            <div class="column">
-                <h2>Ingredients</h2>
-                <p>butter, for frying</p>
-                <p>150g chestnut mushrooms, sliced</p>
-                <p>1/2 clove garlic, crushed</p>
-                <p>2 eggs, beaten and seasoned</p>
-                <p>50g taleggio, sliced</p>
-                <p>a handful rocket, lightly dressed, to serve</p>
-
-            </div>
-        </div>
-        <hr class="lineMeals">
-        <div class="row">
-            <div class="column">
-                <img class="img" src="IMG/hashbrown.jpg" alt="Hash Brown Photo">
-
-            </div>
-            <div class="column">
-                <h2>Hash Brown With Fried Eggs</h2>
-                <hr>
-                <h3>Step 1</h3>
-                <p>Put the potatoes whole into a large pan and fill with cold water. Bring to a simmer, then cook for 8 minutes or until starting to soften round the edges. Drain really well, allow to cool, then coarsely grate the potatoes into a bowl.</p>
-                <h3>Step 2</h3>
-                <p>Meanwhile, put the bacon into a pan and cook gently over a low heat until really crisp.</p>
-                <h3>Step 3</h3>
-                <p>Tip the bacon and any fat plus the spring onions and cheddar into the bowl of grated potato, add lots of seasoning and mix well.</p>
-                <h3>Step 4</h3>
-                <p>Heat 1 tbsp of vegetable oil in a 22cm non-stick frying pan and cook 1/2 the mix, squashing it down with a spatula into a patty. Cook for 5 minutes or until crisp, then flip and repeat. Keep warm in a low oven while you fry the other one, then keep both warm in a low oven.</p>
-                <h3>Step 5</h3>
-                <p>Fry the eggs to your liking, then cut the hash browns in 1/2 and serve each with an egg and brown sauce, if you like.</p>
-
-
-            </div>
-            <div class="column">
-                <h2>Ingredients</h2>
-                <p>500g King Edward potatoes, peeled</p>
-                <p>6 rashers streaky bacon, finely chopped</p>
-                <p>2 spring onions, sliced</p>
-                <p>100g cheddar, grated</p>
-                <p>2 tbsp vegetable oil</p>
-                <p>4 eggs</p>
-                <p>to serve brown sauce</p>
-
-            </div>
-        </div>
-
-
-
-    </div>
-
-    <button class="accordion"><h2 class="acc">Lunch</h2></button>
-        <div class="panel">
+            <h2>How to cook</h2>
             <br>
-            <div class="row">
-
-                <div class="column">
-                    <img class="img" src="IMG/pinterest-fresh-pasta.jpg" alt="Pasta Photo">
-
-                </div>
-                <div class="column">
-                    <h2>Home Made Pasta</h2>
-                    <hr>
-                    <h3>Step 1</h3>
-                    <p>In the bowl of a food processor fitted with the steel blade, or a large bowl, place the flour, xanthan gum, Expandex (or tapioca starch/flour), salt, olive oil, eggs and egg yolks, and pulse until combined.</p>
-                    <h3>Step 2</h3>
-                    <p>With the food processor on, remove the hopper and add more water very slowly until the dough clumps to one side of the food processor.</p>
-                    <h3>Step 3</h3>
-                    <p>n a bowl, add water about 1 teaspoonful at a time, mixing constantly until the dough holds together well. If the dough feels stiff, add more water until pliable.</p>
-                    <h3>Step 4</h3>
-                    <p>Knead the dough until smooth and roll into a rectangle. Divide the dough in half, and roll each half into a rectangle about 1/4-inch thick.</p>
-                    <h3>Step 5</h3>
-                    <p>Bring a large pot of salted water to a rolling boil. Place the fresh pasta in the water and cook, stirring to prevent the dough from clumping, for about 2 minutes or until it reaches an al-dente texture.</p>
-
-
-                </div>
-                <div class="column">
-                    <h2>Ingredients</h2>
-                    <p>2 cups all purpose GF Flour</p>
-                    <p>1 Teaspoon xanthan gum</p>
-                    <p>5 tablespoons (45 g) Expandex modified tapioca starch</p>
-                    <p>1/2 teaspoon kosher salt</p>
-                    <p>2 (100 g (weighed out of shell)) eggs</p>
-                    <p>2 (50 g) egg yolks </p>
-                    <p>1 tablespoon (14 g) extra virgin olive oil</p>
-
-                </div>
-            </div>
-
-            <hr class="lineMeals">
-
-            <div class="row">
-
-                <div class="column">
-                    <img class="img" src="IMG/The-Best-Gluten-Free-Pizza-Recipe.jpg" alt="Pizza Photo">
-
-                </div>
-                <div class="column">
-                    <h2>Pizza</h2>
-                    <hr>
-                    <h3>Step 1</h3>
-                    <p>In a small bowl, combine yeast and 3/4 cup (180 ml) warm water – about 110 degrees F (43 C). Too hot and it will kill the yeast! Let set for 5 minutes to activate. Sprinkle in 1 Tbsp (12 g) of the sugar a few minutes in.</p>
-                    <h3>Step 2</h3>
-                    <p>In a separate bowl, combine gluten free flour blend, salt, baking powder and remaining 1-2 Tbsp (12-25 g) sugar depending on preferred sweetness. Whisk until well combined.</p>
-                    <h3>Step 3</h3>
-                    <p>Make a well in the dry mixture and add the yeast mixture. Add the olive oil and additional 1/2 cup (120 ml) warm water before stirring. Then stir it all together until well combined, using a wooden spoon Make a well in the dry mixture and add the yeast mixture. Add the olive oil and additional 1/2 cup (120 ml) warm water before stirring. Then stir it all together until well combined, using a wooden spoon </p>
-                    <h3>Step 4</h3>
-                    <p> Using your hands and a little brown rice flour if it gets too sticky, work from the middle and push to spread/flatten the dough out to the edge. You want it to be pretty thin – less than 1/4 inch.</p>
-                    <h3>Step 5</h3>
-                    <p>Put the pizza in the oven to pre-bake for roughly 20-25 minutes, or until it begins to look dry. Cracks may appear, but that's normal and totally OK.</p>
-                    <h3>Step 6</h3>
-                    <p>Remove from oven and spread generously with your favorite pizza sauce, cheese and desired toppings. We went with Daiya to keep ours dairy-free. Pop back in oven for another 15-25 minutes (depending on toppings), or until the crust edge looks golden brown and the toppings are warm and bubbly.</p>
-
-                </div>
-                <div class="column">
-                    <h2>Ingredients</h2>
-                    <p>1Tbsp dry active yeast</p>
-                    <p>1 1/4 cup warm water</p>
-                    <p>2-3Tbsp sugar</p>
-                    <p>3 cups gluten-free flour blend</p>
-                    <p>1tsp salt</p>
-                    <p>1/2 tsp baking powder </p>
-                    <p>1 Tbsp olive oil</p>
-
-                </div>
-            </div>
-            <hr class="lineMeals">
-            <div class="row">
-
-                <div class="column">
-                    <img class="img" src="IMG/Paella-7.jpg" alt="Paella Photo">
-
-                </div>
-                <div class="column">
-                    <h2>Paella</h2>
-                    <hr>
-                    <h3>Step 1</h3>
-                    <p>Add olive oil to a skillet over medium heat. Add the onion, bell peppers and garlic and cook until onion is translucent. Add chopped tomato, bay leaf, paprika, saffron salt and pepper. Stir and cook for 5 minutes. Add white wine and cook for 10 minutes. Taste and add salt if needed.</p>
-                    <h3>Step 2</h3>
-                    <p>Add chicken pieces, 2 tablespoons chopped parsley and rice to the pot. Cook for 1 minute.</p>
-                    <h3>Step 3</h3>
-                    <p>Pour the broth slowly all around the pan and jiggle the pan to get the rice into an even layer. (Do not stir the mixture going forward!).</p>
-                    <h3>Step 4</h3>
-                    <p>Bring mixture to a boil. Reduce heat to medium low. Give the pan a gentle shake back and forth just once or twice during cooking. </p>
-                    <h3>Step 5</h3>
-                    <p>Cook for about 15-18 minutes (uncovered), then nestle the shrimp, mussels and calamari into the mixture, sprinkle peas on top and continue to cook (without stirring) for about 5 more minutes. Watch for most of the liquid to be absorbed and the rice at the top nearly tender. (If for some reason your rice is still not cooked, add ¼ cup more water or broth and continue cooking).</p>
-                    <h3>Step 6</h3>
-                    <p>Remove pan from heat and cover pan with a lid or tinfoil. Place a kitchen towel over the lid and allow to rest for 10 minutes.</p>
-
-                </div>
-                <div class="column">
-                    <h2>Ingredients</h2>
-                    <p>1 Onion , diced</p>
-                    <p>1 bell pepper , diced</p>
-                    <p>4 cloves Garlic</p>
-                    <p>3 roma tomatoes ,</p>
-                    <p>1 teaspoon paprika</p>
-                    <p>1 pinch saffron threads</p>
-                    <p>1/4 cup white wine</p>
-                    <p>4 boneless , skinless chicken thighs , cut into pieces</p>
-                    <p>1/4 cup fresh chopped parsley chopped, divided</p>
-                    <p>2 cups Spanish Rice</p>
-                    <p>5 cups Chicken Broth</p>
-                    <p>1/2 cup frozen peas</p>
-                    <p>1/2lb Jumbo Shrimp</p>
-                    <p>1/2lb Mussels</p>
-                    <p>8oz calamari rings</p>
-
-                </div>
-            </div>
-
-
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Video of how to cook"></iframe></iframe>
         </div>
 
-    <button class="accordion"><h2 class="acc">Dinner</h2></button>
-        <div class="panel">
-            <br>
-            <div class="row">
 
-
-
-                <div class="column">
-                    <img class ="img" src="IMG/hbgf.jpg" alt="Photo of Banna Pancakes">
-                </div>
-                <div class="column">
-
-                    <h2>Banana pancakes</h2>
-                    <hr>
-                    <h3>STEP 1</h3>
-                    <p>Mix the banana, eggs and peanut butter in a small blender, and whizz until smooth.</p>
-
-                    <h3>STEP 2</h3>
-                    <p>Heat a spray of oil in a non-stick pan over a medium heat and drop spoonfuls of the batter into the pan.</p>
-
-                    <h3>STEP 3</h3>
-                    <p>Cook for a few minutes before flipping. These take longer to cook than a flour batter – and flip them confidently, as they won&apos;t set on top like regular pancakes.</p>
-
-                    <h3>STEP 4</h3>
-                    <p>Fry on the other side until golden and set. Serve with chopped banana and a drizzle of maple syrup, if you like.</p>
-
-
-                </div>
-
-                <div class="column">
-                    <br>
-                    <h2>Ingredients</h2>
-                    <p>1 ripe banana, mashed</p>
-                    <p> 2 eggs, beaten</p>
-                    <p>1 tbsp  peanut butter</p>
-                    <p>spray olive oil</p>
-                    <p>maple syrup (optional)</p>
-
-                </div>
-            </div>
-            <hr class="lineMeals">
-            <div class="row">
-
-
-
-                <div class="column">
-                    <img class ="img" src="IMG/Loin.jpg" alt="SirLion photo">
-                </div>
-                <div class="column">
-
-                    <h2>Loin</h2>
-                    <hr>
-                    <h3>STEP 1</h3>
-                    <p>Rub steak with Cajun seasoning; let stand for 5 minutes</p>
-
-                    <h3>STEP 2</h3>
-                    <p>In a large skillet, cook steak in oil over medium-high heat for 7-10 minutes on each side or until meat reaches desired doneness (for medium-rare, a thermometer should read 135°; medium, 140°; medium-well, 145°). Remove and keep warm.</p>
-
-                    <h3>STEP 3</h3>
-                    <p>In the same skillet, saute mushrooms and leek in butter until tender. Add garlic; cook 1 minute longer. Add the wine, pepper and salt, stirring to loosen browned bits from pan. Bring to a boil; cook until liquid is reduced by half. Slice steak; serve with mushroom sauce.</p>
-
-
-
-                </div>
-
-                <div class="column">
-                    <br>
-                    <h2>Ingredients</h2>
-                    <p>1 beef top sirloin steak</p>
-                    <p>2 tablespoons Cajun seasoning</p>
-                    <p>2 tablespoons olive oil</p>
-                    <p>1/2 pound sliced assorted fresh mushrooms</p>
-                    <p>1 medium leek </p>
-                    <p>1 tablespoon butter</p>
-                    <p>1 teaspoon minced garlic</p>
-                    <p>-1/2 cups dry red wine or reduced-sodium beef broth</p>
-                    <p>1/4 teaspoon pepper</p>
-                    <p>1/8 teaspoon salt</p>
-
-                </div>
-            </div>
-
-
-
-
-        </div>
-    <button class="accordion"><h2 class="acc">Snack</h2></button>
-    <div class="panel">
         <br>
 
-        <div class="row">
 
 
-            <div class="column">
-                <img class ="img" src="IMG/skewers.jpeg" alt="Photo of skewers">
-            </div>
-            <div class="column">
 
-                <h2>Antipasto Skewers</h2>
-                <hr>
-                <h3>Step 1</h3>
-                <p>On 12 wooden 6-in. skewers, alternately thread tomatoes, mozzarella, folded salami slices and olives. Refrigerate until serving. If desired, drizzle skewers with vinaigrette to serve.</p>
+    </main>
 
-            </div>
+    <aside>
 
-            <div class="column">
-                <br>
-                <h2>Ingredients</h2>
-                <p>24 grape tomatoes (about 1 pint)</p>
-                <p> carton (8 ounces) cherry-size fresh mozzarella cheese</p>
-                <p>12 thin slices hard salami (about 1/4 pound)</p>
-                <p>12 pimiento-stuffed Queen olives</p>
-                <p>Italian vinaigrette, optional</p>
-            </div>
+
+    </aside>
+
+<!--Newsletter-->
+    <footer>
+        <h4 class ="bottom_Contact"> <a href="contact_us.html">Contact Us</a></h4>
+        <p> <form>
+        <h5>Subscribe to our newsletter</h5>
+        <p>Monthly digest of what's new and exciting from us.</p>
+        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-outline-primary" type="button" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
         </div>
+        <p>Copyright Matus Illith</p>
+        <p>C 2024</p>
+    </form>
 
-        <hr class="lineMeals">
-
-        <div class="row">
-
-            <div class="column">
-                <img class ="img" src="IMG/Chocolate-Date-Energy-Balls_EXPS_RC20_255035_B09_09_1b.jpg" alt="Chocolate Energy balls photo">
-            </div>
-            <div class="column">
-
-                <h2>Chocolate Date Energy Balls</h2>
-                <hr>
-                <h3>Step 1</h3>
-                <p>Place dates, chocolate and cherries in a food processor; process until finely chopped, about 1 minute. Add nuts, coconut and sunflower kernels; process until blended. Add oil and vanilla; process until mixture comes together. Roll into 12 balls. Refrigerate, covered, at least 30 minutes before serving. Store in an airtight container in the refrigerator.</p>
-
-            </div>
-
-            <div class="column">
-                <br>
-                <h2>Ingredients</h2>
-                <p>1-1/4 cups pitted medjool dates, roughly chopped</p>
-                <p>3 ounces 60% bittersweet chocolate, coarsely chopped</p>
-                <p>1/4 cup dried unsweetened tart cherries, chopped</p>
-                <p>1/4 cup deluxe mixed nuts, coarsely chopped</p>
-                <p>3 tablespoons unsweetened coconut flakes</p>
-            </div>
-
-            <hr class="lineMeals">
-        </div>
-            <div class="row">
-
-
-
-                <div class="column">
-                    <img class ="img" src="IMG/Gluten-and-Dairy-Free-Cinnamon-Raisin-Bread_EXPS_FT19_227132_F_0723_1-20.jpg" alt="Photo of Cinnamon bread">
-                </div>
-                <div class="column">
-
-                    <h2>Gluten- and Dairy-Free Cinnamon Raisin Bread</h2>
-                    <hr>
-                    <h3>Step 1</h3>
-                    <p>Preheat oven to 350°. In a large bowl, whisk flour, 3/4 cup sugar, baking powder, baking soda and salt. In another bowl, whisk eggs, coconut milk, oil and vanilla until blended. Add to flour mixture; stir just until moistened. Toss the raisins with remaining flour; fold into batter.</p>
-                    <h3>Step 2</h3>
-                    <p>Transfer half of the batter to a greased 9x5-in. loaf pan. Combine the cinnamon and remaining sugar. Sprinkle half over batter. Repeat layers. Cut through batter with a knife to swirl.</p>
-                    <h3>Step 3</h3>
-                    <p>Bake until a toothpick inserted in center comes out clean, 45-50 minutes. Cool in pans 10 minutes before removing to a wire rack to cool completely. If desired, serve with dairy-free margarine.</p>
-                </div>
-
-                <div class="column">
-                    <br>
-                    <h2>Ingredients</h2>
-                    <p>2 cups plus 1 tablespoon gluten-free all-purpose baking flour </p>
-                    <p>1 cup sugar, divided</p>
-                    <p>1-1/2 teaspoons baking powder</p>
-                    <p>1/2 teaspoon baking soda</p>
-                    <p>1/4 teaspoon salt</p>
-                    <p>2 large eggs</p>
-                    <p>1 cup coconut milk</p>
-                    <p>1 teaspoon vanilla extract</p>
-
-                </div>
-           </div>
-
-
-
-    </div>
-
-    <script>var acc = document.getElementsByClassName("accordion");
-    var i;
-
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-
-            this.classList.toggle("active");
-
-
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-                panel.style.display = "none";
-            } else {
-                panel.style.display = "block";
-            }
-        });
-    }
-    </script>
-
-    <br>
-  <hr>
-
-    <div class="video">
-
-        <h2>
-            How to cook
-
-        </h2>
-        <br>
-
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Video of how to cook"></iframe></iframe>
-
-    </div>
-
-
-    <br>
-
-
-
-
-</main>
-
-<aside>
-
-
-</aside>
-
-
-<footer>
-    <h4 class ="bottom_Contact"> <a href="contact_us.html">Contact Us</a></h4>
-    <p> <form>
-    <h5>Subscribe to our newsletter</h5>
-    <p>Monthly digest of what's new and exciting from us.</p>
-    <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-        <label for="newsletter1" class="visually-hidden">Email address</label>
-        <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-        <button class="btn btn-outline-primary" type="button" onclick="alert('You have subscribed to our newsletter ')">Subscribe</button>
-    </div>
-    <p>Copyright Matus Illith</p>
-    <p>C 2024</p>
-</form>
-
-</footer>
+    </footer>
 
 
 </body>
