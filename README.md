@@ -7,7 +7,7 @@ References:
 For Header,Eat In Aberdeen page and Recepiecs page:                                                    
 https://www.w3schools.com/howto/howto_css_two_columns.asp
 ----------------------------------------------------------------
-For Navbar And Footer and coursel in img gallery:                                                    
+For Navbar,Footer and Coursel in img gallery:                                                    
 https://getbootstrap.com/docs/5.3/examples/headers/
 https://getbootstrap.com/docs/5.3/examples/carousel/
 https://getbootstrap.com/docs/5.3/examples/buttons/
@@ -32,4 +32,8 @@ https://www.geeksforgeeks.org/how-to-add-blur-effects-to-images-in-css/
 Imbeding google maps:                     
 https://www.embedgooglemap.net/
 -------------------------------
+For Forms:
+https://www.w3schools.com/html/html_forms.asp
+https://html.com/input-type-file/#:~:text=In%20a%20form%2C%20the%20file%20value%20of%20the,the%20file%20name%20appears%20next%20to%20the%20button.
+-----------------------------------
 
