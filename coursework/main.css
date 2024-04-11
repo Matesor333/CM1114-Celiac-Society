@@ -185,11 +185,12 @@ Nav ul {
 /*Gallery*/
 /*style for the carousel img*/
 .carousel img {
-    height: 80%;
+    height: 800px;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+
 /*border of the lower gallery*/
 .Blurr{
     width: 80%;
