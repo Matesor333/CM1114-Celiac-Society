@@ -40,7 +40,7 @@
 
             <form class="d-flex" role="search" name = "Account">
                 <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" name="Email">
-                <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" name="Password">
+                <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password" name="Password">
                 <button class="btn btn-outline-success" type="button" onclick='login_logout()'>login</button>
 
 
@@ -74,9 +74,9 @@
                         <label for="email">Email:</label>
                         <input type="email" name="email" value="" id="email"><br>
                         <label for="mem">Member</label>
-                        <input type="checkbox" id="mem">
+                        <input type="radio" id="mem" name="member">
                         <label for="nonmem">Not Memeber</label>
-                        <input type="checkbox" id="nonmem">
+                        <input type="radio" id="nonmem" name="member">
                         <br>
                         <label for="fileupload"> Select a file to upload</label>
                         <input type="file" name="fileupload" value="fileupload" id="fileupload">
