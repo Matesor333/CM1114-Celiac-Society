@@ -1,20 +1,34 @@
-<html xmlns:C="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>RGU Celiac Society</title>
 </head>
+<!--
+
+Threat Model
+Threat Source: External
+Threat Agent: Human
+Threat Intention: Intentional
+Threat Motivation: Harming people
+Threat Impact: Posting non gluten-free recipes
+Threat Mitigation: Login validation. 2FA. Every change will have double verification
+from random stuff member.
+-->
 
 <body>
     <header>
+
         <!--Logo/Title-->
         <div class="contajnerHeader">
             <div class="logo">
-                <img src="IMG/Logo.jpg" alt="Logo"/>
+                <img src="IMG/Logo.jpg" alt="Logo">
             </div>
             <h1 class="Name">
                 Robert Gordon University Celiac Society
             </h1>
         </div>
-        </div>
+
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -38,9 +52,9 @@
 
 
             <form class="d-flex" role="search" name = "Account">
-                <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" alt="Account Email" name="Email">
-                <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" alt="Account Password" name="Password">
-                <button class="btn btn-outline-success" type="button" onclick='login_logout()' alt="LogIn to account">login</button>
+                <input class="form-control me-2" type="text" placeholder="Email" aria-label="Email" name="Email">
+                <input class="form-control me-2" type="text" placeholder="Password" aria-label="Password" name="Password">
+                <button class="btn btn-outline-success" type="button" onclick='login_logout()' >login</button>
 
 
 
@@ -468,7 +482,7 @@
 
             <h2>How to cook</h2>
             <br>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen alt="Video of how to cook"></iframe></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mhDJNfV7hjk?si=j9E2wZsW9p-Ux9JI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
         </div>
 
 
