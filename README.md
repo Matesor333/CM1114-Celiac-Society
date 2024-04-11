@@ -35,5 +35,7 @@ https://www.embedgooglemap.net/
 For Forms:
 https://www.w3schools.com/html/html_forms.asp
 https://html.com/input-type-file/#:~:text=In%20a%20form%2C%20the%20file%20value%20of%20the,the%20file%20name%20appears%20next%20to%20the%20button.
+https://www.w3schools.com/tags/att_input_type_radio.asp
+https://www.geeksforgeeks.org/how-to-hide-password-in-html/
 -----------------------------------
 
